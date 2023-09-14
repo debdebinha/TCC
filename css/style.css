@@ -28,6 +28,13 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    max-width: 1170px; /* Ajuste conforme necessário */
+}
+body {
+    overflow-x: hidden;
+}
+
 .header-area a {
     color: #1f1f1f;
     text-decoration: none !important;
@@ -193,14 +200,14 @@ button {
 /*-- header --*/
 
 .header-area {
-    border-top: rgb(109, 172, 201) solid 40px;
+    border-top: rgb(109, 172, 201) solid 30px;
     width: 100%;
 }
 
 .logo a {
     color: #363636;
-    font-size: 34px;
-    font-weight: 600;
+    font-size: 29px;
+    font-weight: 550;
 }
 
 .site-navbar .icons li a {
@@ -248,7 +255,7 @@ button {
 }
 
 .site-navbar ul li {
-    padding-right: 70px;
+    padding-right: 60px;
 }
 
 .site-navbar ul li:last-child {
@@ -344,6 +351,8 @@ li.dropdown {
     width: 175px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    border-radius: 15px !important;
+    padding: 10px;
 }
 
 .dropdown-content a {
@@ -391,7 +400,13 @@ li.dropdown {
     max-width: 100%;
     height: auto;
 }
-
+.agency img:hover{ 
+    -webkit-box-shadow: 17px 17px 20px 4px rgba(79,79,79,1);
+    -moz-box-shadow: 17px 17px 20px 4px rgba(79,79,79,1);
+    box-shadow: 17px 17px 20px 4px rgba(79,79,79,1);
+    margin: 10px;
+    opacity: 60%;
+}
 @media screen and (prefers-reduced-motion: reduce) {
     .carousel-item {
         transition: none;
@@ -1570,7 +1585,7 @@ ul.social_icon li a i:hover {
 
 footer {
     background-image: linear-gradient(to right, #84a9c2, #160b77);
-    height: 300px;
+    height: 350px;
 }
 
 .cor-default-footer{
@@ -1607,7 +1622,6 @@ article {
 }
 
 .perfil a {
-    border-bottom: 1px solid;
     font-size: 22px;
     color: rgb(172, 184, 226);
     flex-direction: column;
@@ -1615,7 +1629,6 @@ article {
 }
 
 .perfil a:hover {
-    border-bottom: 1px dotted;
     color: #1417b9;
     transition: ease-in all 0.5s;
 }
