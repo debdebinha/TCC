@@ -397,7 +397,7 @@ li.dropdown {
 
 .agency img {
     /** carrousel img **/
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
