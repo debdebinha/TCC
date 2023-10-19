@@ -16,8 +16,8 @@
 <body>
    <div class="full_bg">
       <!-- header -->
-      <header class="header-area">
-         <div class="container">
+      <header>
+         <div class="container" id="header-container">
             <div class="d_flex mt-4">
                <div class="col-md-4 offset-2 col-sm-3">
                   <div class="logo">
@@ -34,7 +34,7 @@
                               <div class="dropdown-content">
                                  <a href="republica-velha.html">República Velha</a>
                                  <a href="era-vargas.html">Era Vargas</a>
-                                 <a href="estado-novo.html">República Populista</a>
+                                 <a href="republica-populista.html">República Populista</a>
                                  <a href="ditadura-militar.html">Ditadura Militar</a>
                                  <a href="nova-republica.html">Nova República</a>
                               </div>
@@ -62,6 +62,7 @@
       </header>
       <!-- end header inner -->
       <!-- top -->
+
       <div class="slider_main">
          <!-- carousel code -->
          <div id="banner1" class="carousel slide" data-ride="carousel" data-interval="3500">
@@ -72,30 +73,33 @@
                <li data-target="#banner1" data-slide-to="3"></li>
                <li data-target="#banner1" data-slide-to="4"></li>
             </ol>
-            <div class="carousel-inner">
-               <!-- first slide -->
+            <div class="carousel-inner"> <!--  início do contêiner que envolve todos os slides do carrossel -->
+               <!-- first slide start -->
                <div class="carousel-item active">
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="row d_flex">
                            <div class="col-md-5">
-                              <div class="creative">
+                              <div class="resumo-carrosel">
                                  <h1>República Velha</h1>
-                                 <p>A República Velha, também conhecida como Primeira República, foi um processo histórico que contou com conflitos políticos defendidos por diferentes grupos. Foi um período marcado por diversas revoltas e mobilizações sociais, pelo fim de um Estado forte.</p>
-                                 <a class="read_more" href="Javascript:void(0)">Textos</a>
-                                 <a class="read_more" href="Javascript:void(0)">Exercícios</a>
+                                 <p>A República Velha, também conhecida como Primeira República, foi um processo
+                                    histórico que contou com conflitos políticos defendidos por diferentes grupos.
+                                    Foi um período marcado por diversas revoltas e mobilizações sociais, pelo fim de
+                                    um Estado forte.</p>
+                                 <a class="read_more-btn" href="republica-velha.html">Textos</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Exercícios</a>
                               </div>
                            </div>
                            <div class="col-md-7">
                               <div class="row mar_right">
                                  <div class="col-md-6">
-                                    <div class="agency">
-                                       <figure><img src="images/secpic-rv.jpg" alt="#" /></figure>
+                                    <div class="imagens-carrosel">
+                                       <figure><img src="images/repvelha.jpg" alt="pintura rep-velha" /></figure>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
-                                    <div class="agency">
-                                       <figure><img src="images/charge-spxmg.jpg" alt="#" /></figure>
+                                    <div class="imagens-carrosel">
+                                       <figure><img src="images/charge-spxmg.jpg" alt="charge SPxMG" /></figure>
                                     </div>
                                  </div>
                               </div>
@@ -104,35 +108,39 @@
                      </div>
                   </div>
                </div>
-               <!-- second slide -->
+               <!-- first slide end -->
+
+               <!-- second slide start -->
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="row d_flex">
                            <div class="col-md-5">
-                              <div class="creative">
+                              <div class="resumo-carrosel">
                                  <h1>Era <br> Vargas</h1>
                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto alias harum non
-                                    minus est nobis enim dolore architecto! Aliquam molestias eum ipsam esse veritatis.
-                                    Iste, perferendis. Quae, sunt sint id aliquid quasi inventore? Modi, quibusdam.</p>
-                                 <a class="read_more" href="Javascript:void(0)">Textos</a>
-                                 <a class="read_more" href="Javascript:void(0)">Exercícios</a>
+                                    minus est nobis enim dolore architecto! Aliquam molestias eum ipsam esse
+                                    veritatis.
+                                    Iste, perferendis. Quae, sunt sint id aliquid quasi inventore? Modi, quibusdam.
+                                 </p>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Textos</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Exercícios</a>
                               </div>
                            </div>
                            <div class="col-md-7">
                               <div class="row mar_right">
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="images/campanha-vargas.jpg"
                                              alt="campanha vargas" /></figure>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="images/vargas-jornal.jpg"
-                                             alt="#" /></figure>
+                                             alt="vargas-jornal" /></figure>
                                     </div>
                                  </div>
                               </div>
@@ -141,32 +149,35 @@
                      </div>
                   </div>
                </div>
-               <!-- third slide-->
+               <!-- second slide end -->
+
+               <!-- third slide start -->
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="row d_flex">
                            <div class="col-md-5">
-                              <div class="creative">
-                                 <h1>República Populista</h1>
+                              <div class="resumo-carrosel">
+                                 <h1>Republica Populista</h1>
                                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat hic error nisi
-                                    commodi. Quod praesentium, repudiandae nam ipsum, saepe rem quo illo, error tenetur
+                                    commodi. Quod praesentium, repudiandae nam ipsum, saepe rem quo illo, error
+                                    tenetur
                                     harum magni. Maxime rem aspernatur ea eveniet laborum nobis, quaerat odio?</p>
-                                 <a class="read_more" href="Javascript:void(0)">Textos</a>
-                                 <a class="read_more" href="Javascript:void(0)">Exercícios</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Textos</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Exercícios</a>
                               </div>
                            </div>
                            <div class="col-md-7">
                               <div class="row mar_right">
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/59940208399607af22a1e1da30d71816/0e2d1ad7b526a982-ff/s1280x1920/e0226adc9d937c156559bd69a9519d668fd0ceb5.pnj"
                                              alt="#" /></figure>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/2493b37a2ac36a06afddfe3e29456fa6/0e2d1ad7b526a982-5a/s1280x1920/16b43ada79e4b1b1352ae730f7dfbc2101cca89f.pnj"
                                              alt="#" /></figure>
@@ -178,32 +189,35 @@
                      </div>
                   </div>
                </div>
+               <!-- third slide end -->
+
+               <!-- fourth slide start -->
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="row d_flex">
                            <div class="col-md-5">
-                              <div class="creative">
+                              <div class="resumo-carrosel">
                                  <h1>Ditadura Militar</h1>
                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus at cum a sed,
                                     eaque eos esse dignissimos ex quibusdam natus officiis maiores ducimus odit alias
                                     voluptas aspernatur, magnam minus quod dolores voluptate! Aliquam, velit impedit!
                                  </p>
-                                 <a class="read_more" href="Javascript:void(0)">Textos</a>
-                                 <a class="read_more" href="Javascript:void(0)">Exercícios</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Textos</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Exercícios</a>
                               </div>
                            </div>
                            <div class="col-md-7">
                               <div class="row mar_right">
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/e37b7cba717801847de4fc4ef9dbb9c2/eba95fa80b953991-bd/s1280x1920/179a65d24c3cc5001710dafe42c9fe0d07d4a6e8.jpg"
                                              alt="#" /></figure>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/18c2fc80ebc3615bc82744eea082533b/eba95fa80b953991-d9/s1280x1920/2ba7a26f14c34cf625ea8bb34a25fecbb4c48fe6.jpg"
                                              alt="#" /></figure>
@@ -215,32 +229,36 @@
                      </div>
                   </div>
                </div>
+               <!-- fourth slide end -->
+
+               <!-- fifth slide start -->
                <div class="carousel-item">
                   <div class="container">
                      <div class="carousel-caption relative">
                         <div class="row d_flex">
                            <div class="col-md-5">
-                              <div class="creative">
+                              <div class="resumo-carrosel">
                                  <h1>Nova República</h1>
                                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad mollitia nisi magni
                                     omnis eos delectus, qui laudantium ducimus adipisci culpa dolore, repudiandae
-                                    praesentium fugit expedita repellat dolores officiis distinctio quos voluptas ipsa
+                                    praesentium fugit expedita repellat dolores officiis distinctio quos voluptas
+                                    ipsa
                                     officia facere illum!</p>
-                                 <a class="read_more" href="Javascript:void(0)">Textos</a>
-                                 <a class="read_more" href="Javascript:void(0)">Exercícios</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Textos</a>
+                                 <a class="read_more-btn" href="Javascript:void(0)">Exercícios</a>
                               </div>
                            </div>
                            <div class="col-md-7">
                               <div class="row mar_right">
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/28d2d35bd19512dc8306dd38780c1db4/f5dc642df7a46695-30/s2048x3072/d215b1353ac86aed2c3be4e8a95bb5fc452fd195.jpg"
                                              alt="#" /></figure>
                                     </div>
                                  </div>
                                  <div class="col-md-6">
-                                    <div class="agency">
+                                    <div class="imagens-carrosel">
                                        <figure><img
                                              src="https://64.media.tumblr.com/498aecb6936683d73971af5f962b7f9c/f5dc642df7a46695-58/s2048x3072/c2ea189adcc25cc4eb4b46a223f2c6bdbc80793a.jpg"
                                              alt="#" /></figure>
@@ -252,15 +270,17 @@
                      </div>
                   </div>
                </div>
-               <script> //javascript que faz o carrosel passar para o prox slide
+               <!-- fifth slide end -->
+               <script> // início do javascript que faz o carrosel passar para o prox slide
                   $(document).ready(function () {
                      $('#banner1').carousel({
                         interval: 3500 // Tempo em milissegundos (3 segundos)
                      });
                   });
-               </script>
-            </div>
-            <!-- controls -->
+               </script> <!-- fim do código javascript -->
+            </div> <!-- fim do carousel-inner -->
+
+            <!-- setinhas start -->
             <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
                <i class="fa fa-angle-left" aria-hidden="true"></i>
                <span class="sr-only">Previous</span>
@@ -269,16 +289,17 @@
                <i class="fa fa-angle-right" aria-hidden="true"></i>
                <span class="sr-only">Next</span>
             </a>
+            <!-- setinhas end -->
          </div>
       </div>
    </div>
    <!-- end banner -->
 
 
-   <!--  footer -->
-
+   <!-- footer start -->
    <footer class="container-fluid">
       <div class="row">
+         <!-- pessoa 1 start -->
          <article class="col-md-6">
             <div class="perfil">
                <img src="images/3.jpg" alt="">
@@ -286,7 +307,8 @@
                   <a href="#" class="cor-default-footer" id="hover1">
                      <h4 class="cor-default-footer">Rani Vitória</h4>
                      <ul class="social_icon_footer">
-                        <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram" aria-hidden="true"></i>
+                        <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram"
+                                 aria-hidden="true"></i>
                               Instagram</a>
                         </li>
                      </ul>
@@ -301,6 +323,9 @@
                </div>
             </div>
          </article>
+         <!-- pessoa 1 end -->
+
+         <!-- pessoa 2 start -->
          <article class="perfil col-md-6">
             <div class="perfil">
                <img src="images/deb-footer.jpg" alt="">
@@ -308,7 +333,8 @@
                   <a href="#" class="cor-default-footer">
                      <h4 class="cor-default-footer">Débora Peres</h4>
                      <ul class="social_icon_footer">
-                        <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram" aria-hidden="true"></i>
+                        <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram"
+                                 aria-hidden="true"></i>
                               Instagram</a>
                         </li>
                      </ul>
@@ -323,15 +349,18 @@
                </div>
             </div>
          </article>
+         <!-- pessoa 2 end -->
       </div>
 
       <div class="row copyright">
          <div class="col-md-12">
-            <p> All Right Reserved. &copy; 2023 | <a href="../periodos/republica-velha.html">BRASIL CONTEMPORÂNEO</a></p>
+            <p> All Rights Reserved. &copy; 2023 | <a href="../periodos/republica-velha.html">BRASIL CONTEMPORÂNEO</a>
+            </p>
          </div>
       </div>
    </footer>
-   <!-- end footer -->
+   <!-- footer end -->
+
    <!-- Javascript files-->
    <script src="js/jquery.min.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
