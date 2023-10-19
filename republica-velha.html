@@ -16,9 +16,9 @@
 
 <body class="">
 
-   <header class="header-area">
+   <header>
       <div class="container">
-         <div class="d_flex mt-4">
+         <div class="d_flex mt-4" id="header-container">
             <div class="col-md-4 offset-2 col-sm-3">
                <div class="logo">
                   <a href="index.html">Brasil Contemporâneo</a>
@@ -28,13 +28,13 @@
                <div class="navbar-area">
                   <nav class="site-navbar">
                      <ul>
-                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li class="dropdown">
-                           <a>Textos</a>
+                           <a class="active">Textos</a>
                            <div class="dropdown-content">
                               <a href="republica-velha.html">República Velha</a>
                               <a href="era-vargas.html">Era Vargas</a>
-                              <a href="estado-novo.html">Estado Novo</a>
+                              <a href="republica-populista.html">Republica Populista</a>
                               <a href="ditadura-militar.html">Ditadura Militar</a>
                               <a href="nova-republica.html">Nova República</a>
                            </div>
@@ -44,12 +44,12 @@
                            <div class="dropdown-content">
                               <a href="#">República Velha</a>
                               <a href="#">Era Vargas</a>
-                              <a href="#">Estado Novo</a>
+                              <a href="#">Republica Populista</a>
                               <a href="#">Ditadura Militar</a>
                               <a href="#">Nova República</a>
                            </div>
                         </li>
-                        <li><a href="blog.html">Sobre</a></li>
+                        <li><a href="">Sobre</a></li>
                      </ul>
                      <button class="nav-toggler">
                         <span></span>
@@ -96,7 +96,7 @@
          </p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">República da Espada:</h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A República da Espada foi um período na
             história do Brasil, situado entre 1889 e 1894, que levou a ter dois presidentes militares: Marechal Deodoro
@@ -146,7 +146,7 @@
             </div>
          </div>
 
-         <div style="padding-top: 30px;">
+         <div class="espacinho">
             <h2 class="main-subtitle">A Constituição de 1891:</h2>
             <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Foi promulgada nesse período,
                estabelecendo a base para o sistema republicano no Brasil;</p>
@@ -163,7 +163,7 @@
                aberto(não secreto);</p>
          </div>
 
-         <div style="padding-top: 30px;">
+         <div class="espacinho">
             <h2 class="main-subtitle">Crise do encilhamento de 1889 a 1891:
             </h2>
             <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> O encilhamento foi uma crise econômica que
@@ -173,7 +173,7 @@
             </p>
          </div>
 
-         <div style="padding-top: 30px;">
+         <div class="espacinho">
             <h2 class="main-subtitle">Revolta Armada(1891-1894): </h2>
             <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A Revolta Armada, liderada pela Marinha,
                visava reivindicar uma maior participação dos marinheiros na República Brasileira. Adicionalmente,
@@ -190,7 +190,7 @@
          </div>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">Revolta Federalista(1893-1895): </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Foi uma guerra civil entre dois grupos, os
             federalistas, conhecidos como Maragatos, que eram contra o presidencialismo, e os republicanos conhecidos
@@ -211,7 +211,7 @@
             haviam sucumbido no campo de batalha.</p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">República do Café: </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Foi um período importante na história política
             do Brasil, que ocorreu entre o final do século XIX e início do século XX. Esse nome se deve ao fato de que o
@@ -227,11 +227,11 @@
          <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i>Durante esse período, o Brasil foi
             influenciado por quatro elementos-chave:</p>
 
-         <div id="services" class="services section">
+         <div>
             <div class="container">
                <div class="row">
                   <div class="col-lg-3">
-                     <div class="service-item">
+                     <div class="rounded-square">
                         <h4>Política dos Governadores:</h4>
                         <p>Este foi um acordo tácito entre as oligarquias de São Paulo e Minas Gerais para manter o
                            poder no governo federal. Sob essa política, os estados controlavam as eleições federais,
@@ -239,7 +239,7 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="service-item">
+                     <div class="rounded-square">
                         <h4>Máquina Eleitoral:</h4>
                         <p>Refere-se ao sistema de controle das eleições, no qual as oligarquias políticas exerciam
                            grande influência sobre o processo eleitoral, manipulando resultados e garantindo a vitória
@@ -248,7 +248,7 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="service-item">
+                     <div class="rounded-square">
                         <h4>Coronelismo:</h4>
                         <p>Era um sistema de poder local em que líderes regionais, conhecidos como "coronéis", exerciam
                            controle sobre suas áreas de influência. Eles mantinham um domínio sobre a população local
@@ -257,7 +257,7 @@
                      </div>
                   </div>
                   <div class="col-lg-3">
-                     <div class="service-item">
+                     <div class="rounded-square">
                         <h4>Convênio de Taubaté:</h4>
                         <p>Foi um acordo econômico que beneficiava os interesses dos cafeicultores paulistas. Ele
                            estabeleceu um sistema de subsídios para manter os preços do café em níveis elevados,
@@ -272,10 +272,10 @@
 
       <hr>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h6 class="main-color fst-italic">Movimentos Sociais</h6>
       </div>
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">Guerra de Canudos(1896-1897): </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A Guerra de Canudos foi um conflito ocorrido no
             Brasil, entre 1896 e 1897, envolvendo o governo brasileiro e os habitantes de Canudos, um pequeno povoado no
@@ -300,7 +300,7 @@
             deveria lidar com as comunidades marginalizadas e desfavorecidas no país.</p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">A Revolta da Vacina: </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A Revolta da Vacina foi um movimento de
             protesto que eclodiu no Rio de Janeiro em novembro de 1904. Foi desencadeado por uma série de fatores,
@@ -324,11 +324,11 @@
             contra o presidente Rodrigues Alves, que acabou fracassando.</p>
          <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Para conter os protestos, o estado de
             sítio foi decretado em 16 de novembro de 1904, e a polícia e o exército foram mobilizados para reprimir os
-            manifestantes. Ao final, a Revolta da Vacina deixou muitos saldo feridos, pessoas presas e deportação para o
+            manifestantes. Ao final, a Revolta da Vacina deixou muitos soldados feridos, pessoas presas e deportação para o
             Acre.</p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">A Revolta da Chibata: </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A Revolta da Chibata ocorreu em 22 de novembro
             de 1910 e foi um levante militar iniciado por marinheiros da Marinha brasileira que tomaram o controle de
@@ -352,7 +352,7 @@
             Cobras, enquanto outros foram transferidos para o Acre. </p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">A Revolta do Contestado(1912-1916): </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> A Revolta do Contestado foi um conflito armado
             que ocorreu entre 1912 e 1916, na região do Contestado, situada na divisa entre os estados de Santa Catarina
@@ -381,7 +381,7 @@
             seguintes a área passou por um processo de branqueamento. </p>
       </div>
 
-      <div style="padding-top: 30px;">
+      <div class="espacinho">
          <h2 class="main-subtitle">“Revolução” de 1930: </h2>
          <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Um movimento que mudou o rumo da política e da
             sociedade brasileira. Até então, o país era governado pelas oligarquias de Minas Gerais e São Paulo, que
@@ -460,6 +460,7 @@
       </div>
       </div>
       <!-- end footer -->
+      
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/bootstrap.bundle.min.js"></script>
