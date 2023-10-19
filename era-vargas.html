@@ -1,203 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Bliss</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="css/owl.carousel.min.css">
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
-      <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout inner_page">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#"/></div>
-      </div>
-      <!-- end loader -->
-      <div class="full_bg">
-         <!-- header -->
-         <header class="header-area">
-            <div class="container">
-               <div class="row d_flex">
-                  <div class=" col-md-3 col-sm-3">
-                     <div class="logo">
-                        <a href="index.html">Bliss</a>
-                     </div>
-                  </div>
-                  <div class="col-md-9 col-sm-9">
-                     <div class="navbar-area">
-                        <nav class="site-navbar">
-                           <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li><a href="about.html">About</a></li>
-                              <li><a href="service.html">Service</a></li>
-                              <li><a href="blog.html">Blog</a></li>
-                              <li><a class="active" href="contact.html">Contact us</a></li>
-                              <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                              <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                           </ul>
-                           <button class="nav-toggler">
-                           <span></span>
-                           </button>
-                        </nav>
-                     </div>
-                  </div>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Brasil Contemporâneo</title>
+
+   <!-- Bootstrap5 -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/style.css" type="text/css">
+   <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+   <header>
+      <div class="container">
+         <div class="d_flex mt-4" id="header-container">
+            <div class="col-md-4 offset-2 col-sm-3">
+               <div class="logo">
+                  <a href="index.html">Brasil Contemporâneo</a>
                </div>
             </div>
-         </header>
-         <!-- end header inner -->
-      </div>
-      <!-- end banner -->
-      <!-- appointment -->
-      <div class="appointment">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 ">
-                  <div class="titlepage text_align_center">
-                     <h2>Contact Us</h2>
-                     <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
-                  </div>
-               </div>
-               <div class="col-md-12">
-                  <form id="request" class="main_form">
-                     <div class="row">
-                        <div class="col-md-6 ">
-                           <input class="form_control" placeholder="Your name" type="type" name=" Name"> 
-                        </div>
-                        <div class="col-md-6">
-                           <input class="form_control" placeholder="Email" type="type" name="Email"> 
-                        </div>
-                        <div class="col-md-6">
-                           <input class="form_control" placeholder="Phone Number" type="type" name="Phone Number">                          
-                        </div>
-                        <div class="col-md-6">
-                           <input class="form_control" placeholder="Select Massage spa" type="type" name="Select">                          
-                        </div>
-                        <div class="col-md-6 ">
-                           <input class="form_control" placeholder="Time" type="type" name=" Time"> 
-                        </div>
-                        <div class="col-md-6">
-                           <input type="text" class="form_control" id="my_date_picker" placeholder="Select Date" >
-                        </div>
-                        <div class="col-md-12">
-                           <textarea style=" color: #d0d0cf;" class="textarea" placeholder="Message" type="type" name="message">message </textarea>
-                        </div>
-                        <div class="col-md-12">
-                           <button class="send_btn">Send Now</button>
-                        </div>
-                     </div>
-                  </form>
+            <div class="col-md-6 col-sm-9">
+               <div class="navbar-area">
+                  <nav class="site-navbar">
+                     <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="dropdown">
+                           <a class="active">Textos</a>
+                           <div class="dropdown-content">
+                              <a href="republica-velha.html">República Velha</a>
+                              <a href="era-vargas.html">Era Vargas</a>
+                              <a href="republica-populista.html">Republica Populista</a>
+                              <a href="ditadura-militar.html">Ditadura Militar</a>
+                              <a href="nova-republica.html">Nova República</a>
+                           </div>
+                        </li>
+                        <li class="dropdown">
+                           <a id="dropdown-name">Exercícios</a>
+                           <div class="dropdown-content">
+                              <a href="#">República Velha</a>
+                              <a href="#">Era Vargas</a>
+                              <a href="#">Republica Populista</a>
+                              <a href="#">Ditadura Militar</a>
+                              <a href="#">Nova República</a>
+                           </div>
+                        </li>
+                        <li><a href="">Sobre</a></li>
+                     </ul>
+                     <button class="nav-toggler">
+                        <span></span>
+                     </button>
+                  </nav>
                </div>
             </div>
          </div>
       </div>
-      <!-- end appointment -->
-      <!--  footer -->
-      <footer>
-         <div class="footer">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-7">
-                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                           <div class="hedingh3 text_align_left">
-                              <h3>About</h3>
-                              <p> Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable sourc</p>
-                           </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                           <div class="hedingh3 text_align_left">
-                              <h3>Blog</h3>
-                              <p>Which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anythin</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-md-5">
-                     <div class="row">
-                        <div class="col-lg-6 col-md-12">
-                           <div class="hedingh3 text_align_left">
-                              <h3>Menu</h3>
-                              <ul class="menu_footer">
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="blog.html">Blog</a></li>
-                                 <li><a href="contact.html">Contact us</a></li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                           <div class="hedingh3  text_align_left">
-                              <h3>Newsletter</h3>
-                              <form id="colof" class="form_subscri">
-                                 <input class="newsl" placeholder="Email" type="text" name="Email">
-                                 <button class="subsci_btn">Subscribe</button>
-                              </form>
-                              <ul class="top_infomation">
-                                 <li><i class="fa fa-phone" aria-hidden="true"></i>
-                                    +01 1234567890
-                                 </li>
-                                 <li><i class="fa fa-envelope" aria-hidden="true"></i>
-                                    <a href="Javascript:void(0)">demo@gmail.com</a>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <div class="follow text_align_center">
-                           <h3>Follow Us</h3>
-                           <ul class="social_icon ">
-                              <li><a href="Javascript:void(0)"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                              <li><a href="Javascript:void(0)"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                              <li><a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                              <li><a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                     <div class="col-md-12">
-                        <p>© 2020 All Rights Reserved. Design by <a href="https://html.design/"> Free html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
+   </header>
+
+   <!-- textos início -->
+   <div class="textos-start container">
+      <h6 class="main-color fst-italic">Era Vargas</h6>
+      <hr>
+      <div>
+         <h2 class="main-subtitle">Governo Provisório (1930-1934):</h2>
+         <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> O Governo Provisório foi o primeiro período do
+            governo de Getúlio Vargas, que se estendeu de 1930 a 1934. Esse período foi marcado por uma série de
+            mudanças políticas, econômicas e sociais no Brasil, incluindo a centralização do poder nas mãos do Executivo
+            e a criação de novas instituições governamentais.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Durante o Governo Provisório,
+            Vargas implementou uma série de reformas trabalhistas e sociais, incluindo a criação do Ministério do
+            Trabalho, Indústria e Comércio e a regulamentação do trabalho feminino e infantil. Vargas também promoveu
+            uma política de industrialização e modernização do país, com a criação de empresas estatais e a construção
+            de infraestrutura, como estradas e hidrelétricas. No entanto, o Governo Provisório também foi marcado por
+            uma série de conflitos políticos e sociais, incluindo a Revolução Constitucionalista de 1932 em São Paulo e
+            a repressão a movimentos sociais e políticos de oposição.
+         </p>
+      </div>
+      <div class="espacinho">
+         <h2 class="main-subtitle">Revolta Constitucionalista de 1932:</h2>
+         <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Durante o Governo Provisório, Vargas
+            implementou uma série de reformas trabalhistas e sociais, incluindo a criação do Ministério do Trabalho,
+            Indústria e Comércio e a regulamentação do trabalho feminino e infantil. Vargas também promoveu uma política
+            de industrialização e modernização do país, com a criação de empresas estatais e a construção de
+            infraestrutura, como estradas e hidrelétricas. No entanto, o Governo Provisório também foi marcado por uma
+            série de conflitos políticos e sociais, incluindo a Revolução Constitucionalista de 1932 em São Paulo e a
+            repressão a movimentos sociais e políticos de oposição.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A revolta contou com a
+            participação de diversos setores da sociedade paulista, incluindo estudantes, profissionais liberais, e
+            militares. No entanto, a falta de apoio significativo de outros estados enfraqueceu a posição dos paulistas.
+            O conflito se desenrolou em confrontos armados entre as forças paulistas e as tropas do governo federal.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Após cerca de três meses de lutas,
+            a revolta foi derrotada em 2 de outubro de 1932. São Paulo sofreu intervenção militar e as tropas federais
+            ocuparam a cidade. Apesar da derrota militar, a revolta teve consequências políticas importantes. Getúlio
+            Vargas comprometeu-se a elaborar uma nova Constituição, que foi promulgada em 1934, marcando uma transição
+            para um período de maior estabilidade política no Brasil.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A Revolução Constitucionalista de
+            1932 é considerada um marco na história política do Brasil, representando a luta por princípios democráticos
+            e pela consolidação de direitos constitucionais. Apesar da derrota militar, o evento contribuiu para
+            mudanças políticas significativas no país, influenciando o desenvolvimento posterior do sistema político
+            brasileiro.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">MMDC:</span>
+            O MMDC foi um movimento político-militar que ocorreu em São Paulo, em 23 de maio de 1932, e que teve um
+            papel importante na Revolução Constitucionalista de 1932. As letras MMDC representam as iniciais dos nomes
+            de quatro estudantes secundaristas que foram mortos pela polícia durante uma manifestação contra o governo
+            de Getúlio Vargas: Martins, Miragaia, Dráusio e Camargo. A morte desses estudantes gerou uma grande comoção
+            popular e levou a uma mobilização ainda maior da população paulista contra o governo federal. O MMDC se
+            tornou um símbolo da luta pela democracia e pela autonomia dos estados, e é lembrado até hoje como um marco
+            na história do Brasil.
+         </p>
+      </div>
+
+      <div class="espacinho">
+         <h2 class="main-subtitle">Governo Constitucional(1934-1937):</h2>
+         <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> O Governo Constitucional foi um período do
+            governo de Getúlio Vargas que se estendeu de 1934 a 1937. Durante esse período, Vargas promulgou uma nova
+            Constituição que estabeleceu a separação dos poderes e a garantia de direitos civis e políticos.
+         </p>
+         <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> No entanto, o governo enfrentou
+            desafios significativos, incluindo a radicalização da política brasileira e a presença de grupos radicais,
+            como a Aliança Nacional Libertadora (ANL) e a Ação Integralista Brasileira (AIB). Esses grupos representavam
+            extremos opostos do espectro político e buscavam tomar o poder por meios violentos. Em 1937, Vargas decretou
+            o Estado Novo, suspendendo a Constituição e estabelecendo um regime autoritário que durou até 1945. O
+            Governo Constitucional é lembrado como um período de transição na história do Brasil, marcado pela tentativa
+            de estabelecer uma democracia representativa e pela luta contra grupos extremistas.
+         </p>
+      </div>
+      <div>
+         <div>
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">AIB:</span> A
+               Ação
+               Integralista Brasileira (AIB) foi um movimento político fundado em 1932 por Plínio Salgado. Inspirado em
+               ideias integralistas europeias, o integralismo buscava uma síntese nacionalista que rejeitava o
+               liberalismo
+               e o comunismo. A AIB adotou símbolos e rituais fascistas, incluindo a suástica, antes associada ao
+               nazismo.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A ideologia integralista
+               defendia
+               uma sociedade hierarquizada baseada em princípios morais e éticos. Preconizava o corporativismo,
+               organizando
+               a sociedade em corporações representando diferentes setores. Participando ativamente da política, a AIB
+               conquistou cadeiras na Assembleia Constituinte em 1934, mas não obteve sucesso eleitoral duradouro.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> O movimento frequentemente
+               entrou
+               em conflito com grupos políticos rivais, especialmente os comunistas e os tenentistas. A rivalidade com a
+               Aliança Nacional Libertadora (ANL), de orientação comunista, foi intensa.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Com o Estado Novo de Getúlio
+               Vargas em 1937, que estabeleceu um regime autoritário, a AIB foi fechada e proibida. Plínio Salgado foi
+               preso, marcando o declínio do integralismo na política brasileira. Embora tenha tido algum impacto nas
+               décadas de 1930 e 1940, o integralismo não conseguiu estabelecer uma presença duradoura no cenário
+               político
+               do Brasil.
+            </p>
          </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <script src="js/owl.carousel.min.js"></script>
-      <script src="js/bootstrap-datepicker.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
+
+         <div>
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">ANL:</span> A
+               Aliança Nacional Libertadora (ANL) foi uma organização política brasileira fundada em 1935, marcada por
+               sua
+               orientação comunista e sua oposição ao governo de Getúlio Vargas. A ANL buscava promover reformas sociais
+               e
+               políticas, lutando contra a opressão e a desigualdade no Brasil.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Ao contexto da fundação da ANL
+               foi
+               influenciado pela insatisfação popular com as condições socioeconômicas e pela ascensão de movimentos de
+               esquerda em várias partes do mundo. A organização atraiu membros de diferentes setores da sociedade,
+               incluindo intelectuais, trabalhadores urbanos e rurais.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A ANL esteve envolvida em uma
+               série de mobilizações e protestos. Seu apoio ao governo espanhol durante a Guerra Civil Espanhola e sua
+               oposição ao governo de Vargas tornaram-na alvo de repressão. Em 1935, ocorreu a Intentona Comunista, uma
+               revolta armada liderada por militantes da ANL em Natal e Recife. A revolta foi rapidamente reprimida pelo
+               governo, resultando em prisões e execuções.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A reação do governo de Vargas
+               foi
+               severa, culminando na decretação da Lei de Segurança Nacional e na proibição da ANL. Muitos de seus
+               líderes
+               foram presos, e a organização foi extinta. A repressão contra a ANL marcou um período de intensificação
+               da
+               repressão política durante o governo Vargas, antecedendo o Estado Novo, um período autoritário instaurado
+               em
+               1937.
+            </p>
+         </div>
+
+         <div>
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Plano Cohen
+                  1937:</span> O contexto do Plano Cohen estava envolto em tensões políticas e sociais no Brasil, com
+               grupos políticos diversos buscando influência e expressando descontentamento. O plano, no entanto, foi
+               revelado como uma farsa, elaborada pelo próprio governo, com o objetivo de criar uma narrativa de ameaça
+               comunista para justificar medidas repressivas.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> O plano consistia em documentos
+               falsos que supostamente detalharam um plano comunista para tomar o poder no Brasil, incluindo ações como
+               incêndios e sabotagens. O governo de Vargas divulgou esses documentos, afirmando que eram evidências de
+               uma
+               conspiração comunista contra o Estado.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A reação à divulgação do Plano
+               Cohen foi intensa. Setores conservadores e militares pressionaram Vargas a tomar medidas enérgicas para
+               combater a suposta ameaça comunista. Em resposta, Vargas decretou o Estado de Sítio, fechou o Congresso
+               Nacional e, em 10 de novembro de 1937, instituiu o Estado Novo por meio de um golpe de Estado,
+               suspendendo a
+               Constituição de 1934 e estabelecendo um regime autoritário.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> O Estado Novo de Vargas
+               perdurou
+               até 1945, marcando um período de centralização de poder, censura política, restrição de direitos civis e
+               perseguição a opositores políticos. O Plano Cohen, embora posteriormente revelado como uma farsa, teve um
+               impacto significativo na história política do Brasil, contribuindo para a consolidação do autoritarismo
+               durante esse período.
+            </p>
+         </div>
+      </div>
+
+      <hr>
+
+      <div>
+         <h6 class="main-color fst-italic">Estado Novo</h6>
+         <div class="espacinho">
+            <h2 class="main-subtitle">Estado Novo (1937-1945): </h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> É o período em que Getúlio Vargas governou o
+               Brasil de forma autoritária de 1937 a 1945. Ele está no poder desde o final da década de 1930, e a
+               revolução que acabou com o regime oligárquico fez dele Presidente da República. Em 10 de novembro de
+               1937, Vargas deu um golpe que fechou a Assembleia Nacional, aboliu os partidos políticos e restringiu as
+               liberdades pessoais. Além disso, a constituição de 1934 foi revogada e outra carta entrou em vigor,
+               garantindo amplos poderes ao chefe do Executivo.
+            </p>
+
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Constituição de
+                  1937:</span> No mesmo dia do golpe que deu início ao Estado Novo, em 10 de novembro, a constituição de
+               1937 entrou em vigor.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A Constituição de 1937 foi
+               concebida para assegurar a suposta segurança nacional, prevenindo tumultos políticos que pudessem
+               interferir nas atividades governamentais. O Plano Cohen, divulgado pelo governo como uma tentativa
+               comunista de tomada de poder, serviu como justificativa para o golpe do Estado Novo. O texto
+               constitucional refletiu a abordagem de usar a força estatal para evitar um golpe comunista iminente. Em
+               1938, as eleições presidenciais foram canceladas, privando os brasileiros do direito de escolher seus
+               representantes por oito anos de ditadura. A nomeação de interventores estaduais por Getúlio Vargas
+               substituiu o processo eleitoral nos estados;
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A Constituição também impôs
+               censura à mídia, proibindo críticas ao governo sob ameaça de prisão, exemplificado pelo caso de Monteiro
+               Lobato em 1941. Além disso, fortaleceu a repressão governamental, resultando em prisões arbitrárias e
+               dificuldades legais para presos políticos, como o líder comunista Luis Carlos Preste, detido em condições
+               precárias pela polícia política de Vargas.
+            </p>
+
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Mecanismo de ação e controle:</span> Um mecanismo de controle para consolidar o poder e manter a estabilidade do governo. Durante o Estado Novo, várias medidas foram tomadas para centralizar o poder nas mãos do presidente Getúlio Vargas e garantir a estabilidade política:
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">DASP:</span> O DASP (Departamento Administrativo do Serviço Público) foi uma instituição criada no Brasil durante o período do Estado Novo, que teve início em 1937 com o golpe liderado por Getúlio Vargas. O Estado Novo durou até 1945 e caracterizou-se por um regime político autoritário. O DASP foi instituído em 1938 e teve como principal objetivo promover a modernização e a racionalização da administração pública brasileira. Era uma agência governamental encarregada de reformar e aprimorar a estrutura administrativa do Estado, buscando maior eficiência e profissionalismo nos serviços públicos;
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> A Constituição também impôs
+               censura à mídia, proibindo críticas ao governo sob ameaça de prisão, exemplificado pelo caso de Monteiro
+               Lobato em 1941. Além disso, fortaleceu a repressão governamental, resultando em prisões arbitrárias e
+               dificuldades legais para presos políticos, como o líder comunista Luis Carlos Preste, detido em condições
+               precárias pela polícia política de Vargas.
+            </p>
+
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">DIP:</span> A criação do Departamento de Imprensa e Propaganda (DIP) em 1939 foi fundamental para que o governo autoritário de Getúlio Vargas criasse uma imagem positiva na opinião pública. Esse órgão governamental associa a imagem do presidente aos benefícios proporcionados aos seus funcionários. Desta forma, Vargas tornou-se “pai dos pobres”.   
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i>O DIP é também  responsável por censurar os meios de comunicação social para impedir a publicação de notícias negativas ao governo ou às formas violentas e autoritárias como as estruturas repressivas perseguem e prendem opositores à ditadura do Estado Novo;   
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> No final da década de 1930, o rádio era o principal meio de comunicação do Brasil. O DIP está a agir de forma decisiva para cumprir as suas obrigações nesta área. Para isso foi criado o programa Hora do Brasil, que é transmitido sempre às 19h e é obrigatório em todas as rádios brasileiras. Era uma época em que Vargas falava aos trabalhadores, o governo anunciava medidas e o samba se popularizava culturalmente como canção nacional e de louvor à nação.
+            </p>
+         </div>
+      </div>
+
+   </div>
+
+
+   <!-- footer start -->
+   <footer class="container-fluid">
+      <div class="row">
+         <!-- pessoa 1 start -->
+         <article class="col-md-6">
+            <div class="perfil">
+               <img src="images/3.jpg" alt="">
+               <div class="links">
+                  <a href="#" class="cor-default-footer" id="hover1">
+                     <h4 class="cor-default-footer">Rani Vitória</h4>
+                     <ul class="social_icon_footer">
+                        <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram"
+                                 aria-hidden="true"></i>
+                              Instagram</a>
+                        </li>
+                     </ul>
+                  </a>
+                  <a href="#" class="cor-default-footer">
+                     <ul class="social_icon_footer">
+                        <li><a href="https://github.com/ranyviih"><i class="fa fa-github" aria-hidden="true"></i>
+                              Github</a>
+                        </li>
+                     </ul>
+                  </a>
+               </div>
+            </div>
+         </article>
+         <!-- pessoa 1 end -->
+
+         <!-- pessoa 2 start -->
+         <article class="perfil col-md-6">
+            <div class="perfil">
+               <img src="images/deb-footer.jpg" alt="">
+               <div class="links">
+                  <a href="#" class="cor-default-footer">
+                     <h4 class="cor-default-footer">Débora Peres</h4>
+                     <ul class="social_icon_footer">
+                        <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram"
+                                 aria-hidden="true"></i>
+                              Instagram</a>
+                        </li>
+                     </ul>
+                  </a>
+                  <a href="#" class="cor-default-footer">
+                     <ul class="social_icon_footer">
+                        <li><a href="https://github.com/debdebinha"><i class="fa fa-github" aria-hidden="true"></i>
+                              Github</a>
+                        </li>
+                     </ul>
+                  </a>
+               </div>
+            </div>
+         </article>
+         <!-- pessoa 2 end -->
+      </div>
+
+      <div class="row copyright">
+         <div class="col-md-12">
+            <p> All Rights Reserved. &copy; 2023 | <a href="../periodos/republica-velha.html">BRASIL CONTEMPORÂNEO</a>
+            </p>
+         </div>
+      </div>
+   </footer>
+   <!-- footer end -->
+</body>
+
 </html>
