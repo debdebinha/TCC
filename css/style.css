@@ -532,6 +532,7 @@ h6 {
     margin: 10px 0;
     font-family: 'Lato', sans-serif;
     line-height: 26px;
+    text-align: justify;
 }
 
 .espacinho {
@@ -542,6 +543,16 @@ h6 {
     margin-left: 50px !important;
     margin-top: 5px !important;
     margin-bottom: 5px !important;
+}
+
+#fotinha {
+    width: 280px;
+    height: 370px;
+}
+
+.vargas-info p {
+    display: block;
+    text-align: justify;
 }
 
 /* textos-start end */
@@ -631,6 +642,8 @@ ul.social_icon_footer li a i {
 .inside-photo p {
     line-height: 20px;
     font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-photo {
@@ -749,15 +762,21 @@ ul.social_icon_footer li a i {
 /* quizz start */
 .questao-content {
     padding: 65px 40px 30px;
+    text-align: justify;
+}
+
+.questao-content p {
+    font-size: 20px;
+    padding-left: 30px;
+    line-height: 26px;
 }
 
 .questao-content li {
     background-color: #f8f8f8;
 }
 
-.questao-content h1 {
-    font-size: 27px;
-    padding: 30px;
+.questao-content h4 {
+    padding: 25px;
 }
 
 .quest-body {
@@ -803,7 +822,68 @@ ul.social_icon_footer li a i {
     border-radius: 0.375rem;
 }
 
-.list-group{
+.list-group {
     border-left: 10px;
 }
+
 /* quizz end */
+
+/* quadradinhos start */
+.quadradinhos {
+    height: 380px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+}
+
+.quadradinhos:hover {
+    background: #40b9d7;
+}
+
+
+.quadradinhos h5 {
+    color: #40b9d7;
+}
+
+.quadradinhos:hover i,
+.quadradinhos:hover h5,
+.quadradinhos:hover p {
+    color: #FFFFFF !important;
+}
+
+.quadradinhos p {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 26px;
+}
+/* quadradinhos end */
+
+/* foto-flip start */
+
+.flipper{
+    position: relative;
+	transition: transform 0.8s;
+	transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.flip-container:hover .flipper{
+	transform: rotateY(180deg);
+}
+
+.front, .back{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+	transform: rotateY(180deg);
+}
