@@ -1,47 +1,464 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script><style type="text/css" id="operaUserStyle"></style>
-   <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-   <footer class="container-fluid">
-      <div class="row teste">
-          <article class="col-md-6">
-              <div class="perfil">
-                  <h1 class="cor-default-footer">Pessoa 1</h1>
-                  <img src="anonima.png" alt="">
-                  <a href="#" class="cor-default-footer">Instagram <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                    </svg></a>
-                  <a href="#" class="cor-default-footer">GitHub <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                    </svg></a>
-              </div>
-          </article>
-          <article class="perfil col-md-6">
-              <div class="perfil">
-                  <h1 class="cor-default-footer">Pessoa 2</h1>
-                  <img src="anonima.png" alt="">
-                  <a href="#" class="cor-default-footer">Instagram <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                      <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
-                    </svg> </a>
-                  <a href="#" class="cor-default-footer">GitHub <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                    </svg></a>
-              </div>
-          </article>
-      </div>
-      <div class="row" id="rodape">
-          <section>
-              <p class="cor-default-footer">Copyright © 2023 | Debinha </p>
-          </section>
-      </div>
-  </footer>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ditadura Militar</title>
+    <!-- Bootstrap5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <div class="container" id="header-container">
+            <div class="d_flex mt-1">
+                <div class="col-md-1 logo">
+                    <img src="../images/logo1.png" alt="Logo">
+                </div>
+                <div class="col-md-4 offset-1 col-sm-3">
+                    <div class="logo">
+                        <a href="../index.html">Brasil Contemporâneo</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-9">
+                    <div class="navbar-area">
+                        <nav class="site-navbar">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a class="active">Textos</a>
+                                    <div class="dropdown-content">
+                                        <a href="republica-velha.html">República Velha</a>
+                                        <a href="era-vargas.html">Era Vargas</a>
+                                        <a href="republica-populista.html">Republica Populista</a>
+                                        <a href="ditadura-militar.html">Ditadura Militar</a>
+                                        <a href="nova-republica.html">Nova República</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                    <a id="dropdown-name">Exercícios</a>
+                                    <div class="dropdown-content">
+                                        <a href="../exercicios/rep-velha-ex.html">República Velha</a>
+                                        <a href="../exercicios/era-vargas-ex.html">Era Vargas</a>
+                                        <a href="../exercicios/rep-populista-ex.html">Republica Populista</a>
+                                        <a href="../exercicios/ditadura-ex.html">Ditadura Militar</a>
+                                        <a href="../exercicios/nova-rep-ex.html">Nova República</a>
+                                    </div>
+                                </li>
+                                <li><a href="referencias.html">Referências</a></li>
+                            </ul>
+                            <button class="nav-toggler">
+                                <span></span>
+                            </button>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- textos start -->
+    <div class="textos-start container">
+        <h6 class="text-center fst-italic fw-bold">Ditadura Militar</h6>
+        <hr>
+        <div>
+            <h2 class="main-subtitle py-2">Contexto Histórico: </h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> <span class="fw-bold">
+                    Golpe de 1964: </span> Na proclamação da República no Brasil, o líder
+                militar Marechal Deodoro da Fonseca toma a frente do governo do país a fim de estabelecer um novo modelo
+                político. A partir disso, os primeiros anos de liderança de Deodoro ficaram conhecidos como Governo
+                Provisório, e com isso, as mudanças imediatas foram a causa do fim da monarquia e da Constituição de
+                1824.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> No início da década de 1960, o
+                Brasil enfrentava instabilidade política e social.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> O presidente João Goulart,
+                considerado por setores conservadores como inclinado ao comunismo, enfrentou forte oposição.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Em 31 de março de 1964,
+                militares lideraram um golpe de Estado, depuseram Goulart e instalaram um governo militar.
+            </p>
+
+        </div>
+
+        <div>
+            <h2 class="main-subtitle py-4">General Castelo Branco (1964-1967): </h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Castelo Branco era marechal do Exército e foi escolhido como presidente pelos
+                líderes do golpe militar de 1964. Assumiu o cargo em 1964, sucedendo o presidente deposto João Goulart.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Durante o governo de Castelo
+                Branco, foram implementadas diversas medidas significativas que impactaram a estrutura socioeconômica do
+                Brasil. Entre essas iniciativas, destacam-se:
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">INPS:
+                </span> Instituto Nacional de Previdência Social;
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">FGTS:
+                </span> Fundo de Garantia de Tempo de Serviço;
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">BNH:
+                </span> Banco Nacional de Habitação;
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">EMBRATEL:</span> Empresa de Telecomunicação.
+            </p>
+
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Atos
+                    Institucionais(AI):</span> Durante a Ditadura Militar no Brasil, uma série de Atos Institucionais
+                (AIs) foram promulgados como instrumentos legais que conferiam ao governo militar poderes
+                extraordinários para tomar decisões e implementar mudanças significativas na estrutura política e social
+                do país. Abaixo estão alguns dos principais Atos Institucionais:
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">AI-1:</span> Consolidou a autoridade do Executivo ao suspender as imunidades
+                parlamentares e possibilitar a cassação de mandatos de deputados por decisão do próprio Executivo.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">AI-2:</span> Fechou os partidos políticos existentes, existindo apenas dois: a
+                Aliança Renovadora Nacional (ARENA), e o Movimento Democrático Brasileiro (MDB).
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">AI-3:</span> Instituiu eleições indiretas para os governadores dos Estados.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">AI-4:</span> Revogou a Constituição de 1946.
+            </p>
+
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Constituição de
+                    1967: </span> A Constituição de 1967, desenhada durante a Ditadura Militar, trouxe algumas mudanças
+                importantes, como:
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Mais
+                    Poder para o Presidente: </span> O presidente ganhou mais poder, podendo criar leis sem passar pelo
+                Congresso.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Mudança
+                    de Nome do País:</span> O Brasil passou a ser chamado de República Federativa do Brasil, abandonando
+                o nome República dos Estados Unidos do Brasil.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Eleições
+                    Indiretas:</span> A escolha do presidente e vice-presidente passou a ser feita de forma indireta, ou
+                seja, não era o povo que votava diretamente.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">Militarização da Presidência:</span> A presidência ficou mais ligada aos militares,
+                com uma influência maior das Forças Armadas.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Pena de
+                    Morte para Crimes Graves:</span> Para crimes considerados muito sérios contra a segurança nacional,
+                a pena de morte foi introduzida.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Fim do
+                    Direito de Greve:</span> As pessoas perderam o direito de fazer greves, o que afetou a maneira como
+                os trabalhadores podiam se manifestar.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Caminho
+                    para Censura e Banimento:</span> A Constituição abriu espaço para leis futuras que poderiam censurar
+                e banir certas coisas, como parte das restrições à liberdade de expressão.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="main-subtitle py-4">General Costa e Silva(1967-1969): </h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Durante o governo de Costa e Silva, ocorreram uma série de eventos e
+                realizações que marcaram o cenário político e social do Brasil na época:
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Frente
+                    Ampla:</span> Setores opositores ao governo, liderados por figuras como Carlos Lacerda e Juscelino
+                Kubitschek, formaram a Frente Ampla, uma coalizão que se opunha às políticas e práticas autoritárias da
+                ditadura militar.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Criação
+                    da FUNAI:</span> Fundação Nacional do Índio, evidenciando uma mudança na abordagem do governo em
+                relação às questões indígenas.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Criação
+                    da EMBRATUR:</span> Instituto Brasileiro de Turismo.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">1968:</span> A morte do secundarista Edson Luís gerou protestos e movimentos contra
+                a ditadura, destacando-se a Passeata dos 100 mil no Rio de Janeiro. Esses eventos refletiram a crescente
+                insatisfação popular.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Criação
+                    do AI-5:</span> Foi um dos Atos Institucionais mais repressivos durante o regime militar no Brasil.
+                Ele foi decretado em 1968, representando um endurecimento das medidas autoritárias adotadas pelo
+                governo, como: Suspensão de Garantias Constitucionais; Censura e Controle da Imprensa; Punição de
+                Opositores; Aumento do Poder Executivo; Exílio e Perseguição de Artistas e Intelectuais.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">Artistas:</span> Durante o período da ditadura militar no Brasil, que se estendeu de
+                1964 a 1985, diversos artistas se posicionaram contra o regime autoritário, utilizando suas expressões
+                artísticas como forma de resistência e crítica. Muitos músicos, escritores, cineastas e outros artistas
+                foram perseguidos e censurados, mas mesmo assim, contribuíram para disseminar mensagens de protesto e
+                contestação.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                    class="fw-bold">Afastamento por motivos de Saúde:</span> O Presidente Costa e Silva, devido a
+                problemas de saúde, precisou se afastar do cargo, marcando o fim de seu mandato e abrindo caminho para a
+                ascensão de seu sucessor, o General Emílio Garrastazu Médici.
+            </p>
+            <p><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">“Golpe dentro de
+                    golpe”:</span> Após a incapacitação do presidente Costa e Silva, o vice-presidente Pedro Aleixo
+                deveria assumir, mas setores militares mais conservadores não aceitaram sua posse. O Congresso foi
+                fechado, e uma junta militar indicou Emílio Garrastazu Médici como presidente.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="main-subtitle py-4">General Emílio Garrastazu Médici (1969 - 1974):</h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Seu mandato é conhecido como o período do "milagre econômico", caracterizado
+                pelo crescimento econômico acelerado, mas também pelo aumento da repressão política.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Luta
+                    Armada:</span> Enfrentando o regime autoritário, alguns setores civis e militares optaram pela luta
+                armada como forma de resistência. Grupos como a Vanguarda Popular Revolucionária (VPR), Vanguarda Armada
+                Revolucionária - Palmares (VAR-Palmares) e Movimento Revolucionário 8 de Outubro (MR-8) buscaram, por
+                meio da guerrilha urbana, combater o governo.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Auge da
+                    Repressão Militar:</span> O período foi caracterizado pelo auge da repressão militar, com aumento
+                das prisões, torturas e violações dos direitos humanos. A ação do Estado era centrada em eliminar
+                qualquer forma de oposição ao regime.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Órgãos de
+                    Repressão:</span> O Destacamento de Operações de Informações (DOI), o Centro de Operações de Defesa
+                Interna (CODI) e o Departamento de Ordem Política e Social (DOPS) foram instituições-chave na estrutura
+                de repressão do regime, agindo para neutralizar os opositores.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">I PND -
+                    Plano Nacional de Desenvolvimento:</span> O governo implementou o Plano Nacional de Desenvolvimento
+                (I PND), visando impulsionar a economia, promover o desenvolvimento de setores estratégicos e ampliar as
+                exportações, especialmente de produtos manufaturados.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> <span class="fw-bold">Milagre
+                    Econômico:</span> O Milagre Econômico foi um período de crescimento econômico rápido, mas
+                superficial, impulsionado por investimentos em infraestrutura e industrialização. Apesar do crescimento,
+                a desigualdade social persiste.
+            </p>
+
+            <!-- foto-flip com texto ao lado -->
+            <section id="about" class="mt-4">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <div class="col-md-3">
+                                <img style="height: 350px; width: 320;" class="mb-4" src="../images/rio-niteroi.jpg"
+                                    alt="jango">
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <p class="rio-niteroi"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                                    class="fw-bold">Transamazônica:</span> Enfrentou vários problemas que contribuíram
+                                para o seu insucesso. Desafios geográficos, financeiros e ambientais, além da falta de
+                                planejamento adequado, infraestrutura básica e políticas sustentáveis, resultaram em
+                                impactos negativos, como desmatamento descontrolado, degradação ambiental e ausência de
+                                desenvolvimento sustentável. A rodovia não conseguiu atingir seus objetivos iniciais de
+                                integração regional e desenvolvimento econômico na Amazônia, deixando um legado de
+                                desafios socioeconômicos e ambientais na região.
+                            </p>
+                            <p class="rio-niteroi"><i class="fa fa-circle" style="font-size: 14px;"></i> <span
+                                    class="fw-bold">Ponte Rio-Niterói: </span> A Ponte Rio-Niterói, inaugurada em 1974,
+                                é uma importante estrutura que conecta o Rio de Janeiro a Niterói. Com aproximadamente
+                                13,2 km de extensão, a ponte facilita o tráfego diário entre as duas cidades, sendo uma
+                                parte essencial da infraestrutura regional.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <p class="py-2"><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span
+                    class="fw-bold">Ufanismo:</span> Patriotismo exagerado e excessivo orgulho nacional. O governo
+                militar promoveu uma campanha intensiva de propaganda para criar uma imagem positiva do regime e do
+                país. Isso incluiu slogans, eventos e estratégias que buscavam cultivar um sentimento de orgulho
+                nacional e lealdade ao governo.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Vitória do Brasil na Copa de
+                1970: teve um grande impulso na propaganda pró-governo e o ufanismo com frases do tipo “Brasil: Ame-o ou
+                deixe-o”, “O Brasil é o país do futuro”, “Ninguém segura esse país”, “A Copa do Mundo é nossa”, “Ninguém
+                segura a juventude do Brasil”, etc;
+            </p>
+
+            <p class="py-2"><i class="fa fa-arrow-circle-right" style="font-size: 20px;"></i> <span class="fw-bold">Lei
+                    5692:</span> Reduziu disciplinas tradicionais como História, Sociologia, Filosofia e Geografia. Além
+                disso, transformou o segundo grau em uma modalidade profissionalizante, enfatizando formação técnica
+                para atender às demandas do mercado de trabalho e aos interesses do governo militar.
+
+            </p>
+        </div>
+
+        <div>
+            <h2 class="main-subtitle py-4">General Ernesto Geisel (1974 - 1979): </h2>
+            <p><i class="fa fa-arrow-right" style="line-height: 16px;"></i> Seu mandato foi marcado por eventos
+                significativos e uma estratégia conhecida como "distensão lenta, gradual e segura".
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">II PND -
+                    Plano Nacional de Desenvolvimento:</span> O plano enfatizou investimentos em indústrias de base,
+                buscando autonomia em insumos básicos. Destacou-se a preocupação com o problema energético, promovendo
+                pesquisa de petróleo, programas nucleares (ANGRA 1 e ANGRA 2), o Pró-álcool e a construção de
+                hidrelétricas. O segundo choque do petróleo em 1979 levou a um declínio econômico, com inflação elevada.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">1975 -
+                    Morte do jornalista Wladimir Herzog: </span> A morte do jornalista tornou-se um marco, revelando
+                escândalos e violações dos direitos humanos durante a ditadura militar.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Reatamento
+                    das Relações Diplomáticas com a China:</span> Geisel promoveu o reatamento das relações diplomáticas
+                com a China, buscando uma política externa mais independente e diversificada.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Lei
+                    Falcão:</span> Determinou restrições na propaganda eleitoral, limitando a exposição dos candidatos e
+                buscando evitar críticas ao regime militar, especialmente durante o horário eleitoral gratuito.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Pacotes de
+                    Abril de 1977:</span> Introduziu alterações nas eleições, incluindo a nomeação de um terço dos
+                senadores pelo presidente, aumento do mandato presidencial para seis anos, diminuição da representação
+                dos estados mais populosos e manutenção de eleições indiretas para governador.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Início da
+                    Crise do Milagre Econômico e Recessão:</span> O país enfrentou o início da crise do "Milagre
+                Econômico" com recessão econômica, marcando o declínio do crescimento acelerado dos anos anteriores.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Revogação
+                    do AI-5:</span> Geisel revogou o Ato Institucional nº 5 (AI-5), símbolo da repressão política,
+                marcando um momento de abertura política controlada.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Greves de
+                    1979:</span> O ano de 1979 foi marcado por greves significativas que deram origem a diversas
+                lideranças sindicais, evidenciando um aumento da contestação e movimentos sociais contra o regime
+                militar.
+            </p>
+        </div>
+
+        <div>
+            <h2 class="main-subtitle py-4">General João Baptista Figueiredo (1979 - 1985):</h2>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Mandato de
+                    Seis Anos:</span> João Figueiredo foi o último presidente do regime militar no Brasil, com um
+                mandato estendido de seis anos, devido às mudanças na legislação.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Concessão
+                    de Anistia Ampla: </span> Figueiredo concedeu anistia ampla, geral e irrestrita aos políticos
+                cassados com base em atos institucionais, além de permitir o retorno ao Brasil dos exilados do regime
+                militar.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Primeiras
+                    Eleições Diretas para Governador (1982):</span> Em 1982, foram realizadas as primeiras eleições
+                diretas para governador desde 1965, marcando um passo importante no processo de redemocratização.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Programa
+                    de Incentivo à Agricultura:</span> Figueiredo implementou um programa de incentivo à agricultura,
+                com o slogan "Plante que João garante", liderado por Antonio Delfim Netto, Ministro do Planejamento.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Atentados
+                    e Bomba Riocentro:</span> Durante o governo de Figueiredo, ocorreram vários atentados atribuídos à
+                direita. O mais conhecido foi o episódio da bomba no Riocentro, onde uma explosão dentro de um carro de
+                agentes do governo matou um sargento e feriu gravemente um capitão durante um show musical popular.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Fim do
+                    AI-2 e Retorno do Pluripartidarismo:</span> O governo Figueiredo marcou o fim do Ato Institucional
+                nº 2 (AI-2) e o retorno ao pluripartidarismo, permitindo a existência de vários partidos políticos.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Abertura
+                    Política:</span> Figueiredo continuou o processo de abertura política, permitindo uma maior
+                participação política e o surgimento de novos partidos.
+            </p>
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i><span class="fw-bold">Campanha
+                    Diretas-Já:</span> O período foi marcado pelo movimento "Diretas-Já", uma campanha de ampla
+                participação popular que exigia eleições diretas para a presidência da República. A Emenda Dante de
+                Oliveira, que propunha eleições diretas, não foi aceita, mas o movimento teve papel crucial na
+                mobilização pela redemocratização.
+            </p>
+            <h4 class="fst-italic text-center fw-bold py-4">Fim da Ditadura.</h4>
+        </div>
+        <hr>
+
+        <!-- extras: video-aula e mapa mental -->
+        <h6 class="text-center fst-italic fw-bold">Extras</h6>
+        <div class="video-youtube">
+            <div class="py-5">
+                <h2 class="py-2">Vídeo-Aula por: <span class="fw-bold fst-italic"> Pedro Rennó, Professor de História e
+                        Filosofia</span></h2>
+                <div class="py-3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4ceFMDndn_0?si=EUD_T1rYIqzkIrpC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Mapa Mental:</h2>
+            <img class="py-5 mapa-mental" src="../images/mapa-mental4.png" alt="Mapa Mental 4">
+        </div>
+    </div>
+
+    <!--  footer -->
+
+    <footer class="container-fluid">
+        <div class="row teste">
+            <article class="col-md-6">
+                <div class="perfil">
+                    <img src="../images/3.jpg" alt="">
+                    <div class="links">
+                        <a class="cor-default-footer" id="hover1">
+                            <h4 class="cor-default-footer">Rani Vitória</h4>
+                            <ul class="social_icon_footer">
+                                <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i>
+                                        Instagram</a>
+                                </li>
+                            </ul>
+                        </a>
+                        <a class="cor-default-footer">
+                            <ul class="social_icon_footer">
+                                <li><a href="https://github.com/ranyviih"><i class="fa fa-github"
+                                            aria-hidden="true"></i>
+                                        Github</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="perfil col-md-6">
+                <div class="perfil">
+                    <img src="../images/deb-footer.jpg" alt="deb">
+                    <div class="links">
+                        <a class="cor-default-footer">
+                            <h4 class="cor-default-footer">Débora Peres</h4>
+                            <ul class="social_icon_footer">
+                                <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i>
+                                        Instagram</a>
+                                </li>
+                            </ul>
+                        </a>
+                        <a class="cor-default-footer">
+                            <ul class="social_icon_footer">
+                                <li><a href="https://github.com/debdebinha"><i class="fa fa-github"
+                                            aria-hidden="true"></i>
+                                        Github</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="copyright">
+            <p>All Rights Reserved. &copy; 2023 | <a id="rodape-link" href="republica-velha.html">BRASIL
+                    CONTEMPORÂNEO</a>
+            </p>
+        </div>
+        </div>
+        <!-- end footer -->
 </body>
+
 </html>
