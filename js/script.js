@@ -5,7 +5,7 @@ function enviaResposta(pergunta) {
 
     /* Validade se o usuário selecinou alguma opção */
     if (respostaSelecionada == undefined) {
-        alert('Seleciona um opção ai bocó');
+        alert('Por favor, selecione uma questão para responder.');
     } else {
         var inc = 0;
         var questao;
