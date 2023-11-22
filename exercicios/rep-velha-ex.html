@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Exercícios Rep. Velha</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 
 </head>
@@ -16,37 +16,42 @@
     <header>
         <div class="container">
             <div class="d_flex mt-1" id="header-container">
-                <div class="col-md-4 offset-2 col-sm-3">
+
+                <div class="col-md-1 logo">
+                    <img src="../images/logo1.png" alt="">
+                </div>
+                <div class="col-md-4 offset-1 col-sm-3">
                     <div class="logo">
                         <a href="../index.html">Brasil Contemporâneo</a>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-sm-9">
                     <div class="navbar-area">
                         <nav class="site-navbar">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="../index.html">Home</a></li>
                                 <li class="dropdown">
                                     <a class="active">Textos</a>
                                     <div class="dropdown-content">
-                                        <a href="../periodos/republica-velha.html">República Velha</a>
-                                        <a href="../../periodos/era-vargas.html">Era Vargas</a>
-                                        <a href="periodos/republica-populista.html">Republica Populista</a>
-                                        <a href="periodos/ditadura-militar.html">Ditadura Militar</a>
-                                        <a href="periodos/nova-republica.html">Nova República</a>
+                                        <a href="/periodos/republica-velha.html">República Velha</a>
+                                        <a href="/periodos/era-vargas.html">Era Vargas</a>
+                                        <a href="/periodos/republica-populista.html">Republica Populista</a>
+                                        <a href="/periodos/ditadura-militar.html">Ditadura Militar</a>
+                                        <a href="/periodos/nova-republica.html">Nova República</a>
                                     </div>
                                 </li>
                                 <li class="dropdown">
                                     <a id="dropdown-name">Exercícios</a>
                                     <div class="dropdown-content">
-                                        <a href="exercicios/rep-velha-ex.html">República Velha</a>
+                                        <a href="/exercicios/rep-velha-ex.html">República Velha</a>
                                         <a href="#">Era Vargas</a>
                                         <a href="#">Republica Populista</a>
                                         <a href="#">Ditadura Militar</a>
                                         <a href="#">Nova República</a>
                                     </div>
                                 </li>
-                                <li><a href="">Referências</a></li>
+                                <li><a href="../periodos/referencias.html">Referências</a></li>
                             </ul>
                             <button class="nav-toggler">
                                 <span></span>
@@ -57,12 +62,24 @@
             </div>
         </div>
     </header>
+
     <!-- Pergunta 1 -->
     <div class="espacinho questao-content container">
         <h6 class="textos-start text-center fst-italic fw-bold">Exercícios: República Velha</h6>
         <hr>
         <div class="row">
-            <h1>1) Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dolorum ipsam culpa incidunt exercitationem cum.</h1>
+            <p><span class="fw-bold">1-</span> (UFPR) Os movimentos messiânicos brasileiros, como Canudos e Contestado,
+                ocorreram entre o final do século XIX e início do XX. Sobre esses movimentos, considere as seguintes
+                afirmativas</p>
+            <p><span class="fst-italic">1.</span> Foram movimentos de resistência social, liderados pelos anarquistas de
+                origem italiana.</p>
+            <p><span class="fst-italic">2.</span> Foram movimentos baseados na religiosidade popular, como reação à
+                laicização do estado brasileiro imposta pela proclamação da República.</p>
+            <p><span class="fst-italic">3.</span> Foram movimentos religiosos liderados pela Igreja Católica, contrária
+                às reformas políticas do estado brasileiro.</p>
+            <p><span class="fst-italic">4.</span> Foram movimentos relacionados à disputa pelo poder local e à luta pela
+                terra, acirrados pelas reformas impostas pelo regime republicano.</p>
+
             <div class="quest-body">
                 <ul class="list-group list-group-flush">
                     <div class="input-group m-3">
@@ -71,19 +88,19 @@
                                 <input type="radio" id="r-1-1" onclick="testaQuestao('1')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem numquam in perspiciatis accusamus at laboriosam quos sequi ullam hic tempora! Exercitationem ut quod eveniet possimus esse velit inventore. Eius ratione praesentium minima recusandae officia placeat sunt aliquid quos nulla vero sed aliquam eos a, aspernatur ullam at illum! Architecto, et?</li>
+                        <li class="list-group-item content-resp">a) Somente as afirmativas 1, 2 e 4 são verdadeiras.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-1-2" onclick="testaQuestao('2')" value="correta">
+                                <input type="radio" id="r-1-2" onclick="testaQuestao('2')">
                             </div>
                         </div>
 
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">b) Somente as afirmativas 1 e 3 são verdadeiras.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -92,20 +109,16 @@
                                 <input type="radio" id="r-1-3" onclick="testaQuestao('3')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">c) Somente a alternativa 3 é verdadeira.</li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-1-4" onclick="testaQuestao('4')">
+                                <input type="radio" id="r-1-4" onclick="testaQuestao('4')" value="correta">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">d) Somente as afirmativas 2 e 4 são verdadeiras.</li>
                     </div>
 
                     <div class="input-group m-3">
@@ -114,19 +127,51 @@
                                 <input type="radio" id="r-1-5" onclick="testaQuestao('5')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">e) Somente a afirmativa 4 é verdadeira.</li>
                     </div>
                 </ul>
             </div>
         </div>
-        <div class="espacinho row">
-            <div class=" offset-1 col-md-10 a1 acertaresp">
-                <p>acertou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quidem voluptates quam aliquid, facere rerum necessitatibus sunt assumenda quo quisquam!</p>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class="offset-1 col-md-10 a1 acertaresp">
+                <p>Correto! A alternativa correta é: Letra D</p>
+
+                <!-- explicação: -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 1 é incorreta. Os movimentos
+                    messiânicos brasileiros, como Canudos e Contestado, não foram liderados pelos anarquistas de origem
+                    italiana. Na verdade, eles tinham lideranças locais e eram movimentos mais ligados a questões
+                    sociais e econômicas do que a uma ideologia anarquista.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 2 é correta. Os movimentos
+                    messiânicos, em sua maioria, eram influenciados pela religiosidade popular e ocorreram em reação a
+                    mudanças sociais e políticas, incluindo a laicização do estado brasileiro após a proclamação da
+                    República.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 3 é incorreta. Os movimentos
+                    messiânicos não foram liderados pela Igreja Católica. Pelo contrário, em alguns casos, como em
+                    Canudos, houve conflitos entre os líderes messiânicos e a Igreja Católica.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 4 é correta. Os movimentos
+                    messiânicos estavam relacionados à disputa pelo poder local e à luta pela terra, sendo acirrados
+                    pelas reformas impostas pelo regime republicano. Esses movimentos envolviam questões sociais,
+                    econômicas e políticas específicas de determinadas regiões do Brasil.</p>
             </div>
             <div class="offset-1 col-md-10 e1 acertaresp">
-                <p>errou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet expedita asperiores adipisci possimus repudiandae, esse error soluta blanditiis sit voluptatibus provident.</p>
+                <p>Errado! A alternativa correta é: Letra D</p>
+
+                <!-- explicação: -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 1 é incorreta. Os movimentos
+                    messiânicos brasileiros, como Canudos e Contestado, não foram liderados pelos anarquistas de origem
+                    italiana. Na verdade, eles tinham lideranças locais e eram movimentos mais ligados a questões
+                    sociais e econômicas do que a uma ideologia anarquista.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 2 é correta. Os movimentos
+                    messiânicos, em sua maioria, eram influenciados pela religiosidade popular e ocorreram em reação a
+                    mudanças sociais e políticas, incluindo a laicização do estado brasileiro após a proclamação da
+                    República.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 3 é incorreta. Os movimentos
+                    messiânicos não foram liderados pela Igreja Católica. Pelo contrário, em alguns casos, como em
+                    Canudos, houve conflitos entre os líderes messiânicos e a Igreja Católica.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A afirmativa 4 é correta. Os movimentos
+                    messiânicos estavam relacionados à disputa pelo poder local e à luta pela terra, sendo acirrados
+                    pelas reformas impostas pelo regime republicano. Esses movimentos envolviam questões sociais,
+                    econômicas e políticas específicas de determinadas regiões do Brasil.</p>
             </div>
         </div>
         <div class="row">
@@ -136,10 +181,30 @@
         </div>
         <hr>
     </div>
+
     <!-- Pergunta 2 -->
     <div class="questao-content container">
         <div class="row">
-            <h1>PERGUNTA 2:</h1>
+            <p><span class="fw-bold">2-</span> (IFBA) O relato do revolucionário Gregório Bezerra, nascido em 13 de
+                março de 1900, expõe muito do drama social brasileiro: da seguinte forma:
+            </p>
+            <p class="fst-italic">“Gregório Bezerra só foi comer um “prato de arroz com farofa e carne de porco” aos 7
+                anos, quando já trabalhava como pequeno lavrador na fazenda de um velho latifundiário. Costumava fazer
+                uma única refeição: farinha com migalhas de charque ou “pirão de água fria com um naco de bacalhau.”</p>
+            <p>Na Primeira República ou República Velha (1889-1930) no Brasil, a estrutura da economia brasileira de
+                natureza agrário exportadora e latifundiária era a simbiose de um regime político que tinha como
+                característica:</p>
+            <p><span class="fst-italic">I.</span> O poder oligárquico coronelista excludente da participação da maioria.
+            </p>
+            <p><span class="fst-italic">II.</span> Os potentados locais controlavam o sistema eleitoral, fraudando o
+                voto que era aberto e não secreto.</p>
+            <p><span class="fst-italic">III.</span> A Comissão Verificadora dos Poderes foi estabelecida pela “Política
+                dos Governadores” fortalecendo o “jogo oligárquico”.</p>
+            <p><span class="fst-italic">IV.</span> Os latifundiários tinham o controle social dos trabalhadores rurais
+                fortalecendo o seu mando político.
+            </p>
+            <p>Marque a alternativa que apresenta as proposições verdadeiras:</p>
+
             <div class="quest-body">
                 <ul class="list-group list-group-flush">
 
@@ -149,21 +214,20 @@
                                 <input type="radio" id="r-2-1" onclick="testaQuestao('1')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">a) Se somente as proposições II e III forem
+                            verdadeiras.</li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-2-2" onclick="testaQuestao('2')" value="correta">
+                                <input type="radio" id="r-2-2" onclick="testaQuestao('2')">
                             </div>
                         </div>
 
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">b) Se somente as proposições I, II e IV forem
+                            verdadeiras.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -172,20 +236,18 @@
                                 <input type="radio" id="r-2-3" onclick="testaQuestao('3')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">c) Se somente as proposições I e III forem verdadeiras.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-2-4" onclick="testaQuestao('4')">
+                                <input type="radio" id="r-2-4" onclick="testaQuestao('4')" value="correta">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">d) Se todas as proposições forem verdadeiras.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -194,20 +256,60 @@
                                 <input type="radio" id="r-2-5" onclick="testaQuestao('5')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">e) Se somente as proposições I, III e IV forem
+                            verdadeiras.</li>
                     </div>
 
                 </ul>
             </div>
         </div>
-        <div class="espacinho row">
-            <div class=" offset-1 col-md-10 a2 acertaresp">
-                <p>acertou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quidem voluptates quam aliquid, facere rerum necessitatibus sunt assumenda quo quisquam!</p>
+
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class="offset-1 col-md-10 a2 acertaresp">
+                <p>Correto! A alternativa correta é: Letra D.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção I está correta. Durante a República
+                    Velha, houve uma concentração de poder nas mãos das oligarquias, especialmente ligadas aos
+                    grandes
+                    proprietários rurais, os chamados coronéis. Essas oligarquias excluíam a participação da maioria
+                    da
+                    população.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção II está correta. Durante a
+                    República
+                    Velha, as eleições eram controladas pelos potentados locais (coronéis), e o voto era aberto,
+                    facilitando a prática de fraudes.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção III está correta. A Comissão
+                    Verificadora dos Poderes foi uma ferramenta utilizada na "Política dos Governadores" para
+                    fortalecer
+                    o controle das oligarquias sobre os estados, consolidando o chamado "jogo oligárquico".
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção IV está correta. Os latifundiários
+                    tinham grande influência sobre os trabalhadores rurais, muitas vezes exercendo controle sobre
+                    eles,
+                    o que fortalecia seu poder político.</p>
+                <p>Portanto, todas as proposições são verdadeiras!</p>
             </div>
             <div class="offset-1 col-md-10 e2 acertaresp">
-                <p>errou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet expedita asperiores adipisci possimus repudiandae, esse error soluta blanditiis sit voluptatibus provident.</p>
+                <p>Errado! A alternativa correta é: Letra D.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção I está correta. Durante a República
+                    Velha, houve uma concentração de poder nas mãos das oligarquias, especialmente ligadas aos
+                    grandes
+                    proprietários rurais, os chamados coronéis. Essas oligarquias excluíam a participação da maioria
+                    da
+                    população.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção II está correta. Durante a
+                    República
+                    Velha, as eleições eram controladas pelos potentados locais (coronéis), e o voto era aberto,
+                    facilitando a prática de fraudes.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção III está correta. A Comissão
+                    Verificadora dos Poderes foi uma ferramenta utilizada na "Política dos Governadores" para
+                    fortalecer
+                    o controle das oligarquias sobre os estados, consolidando o chamado "jogo oligárquico".
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A opção IV está correta. Os latifundiários
+                    tinham grande influência sobre os trabalhadores rurais, muitas vezes exercendo controle sobre
+                    eles,
+                    o que fortalecia seu poder político.</p>
+                <p>Portanto, todas as proposições são verdadeiras!</p>
             </div>
         </div>
         <div class="row">
@@ -221,42 +323,59 @@
     <!-- Pergunta 3 -->
     <div class="questao-content container">
         <div class="row">
-            <h1>PERGUNTA 3:</h1>
+            <p><span class="fw-bold">3-</span> (Enem) Até que ponto, a partir de posturas e interesses diversos, as
+                oligarquias paulista e mineira dominaram a cena política nacional na Primeira República? A união de
+                ambas foi um traço fundamental, mas que não conta toda a história do período. A união foi feita com a
+                preponderância de uma ou de outra das duas frações. Com o tempo, surgiram as discussões e um grande
+                desacerto final.
+            </p>
+            <p class="text-end">FAUSTO, B. <span class="fst-italic">História do Brasil.</span> São Paulo: EdUSP, 2004
+                (adaptado). </p>
+            <p class="py-1"> A imagem de um bem-sucedido acordo café com leite entre São Paulo e Minas, um acordo de
+                alternância de presidência entre os dois estados, não passa de uma idealização de um processo muito mais
+                caótico e cheio de conflitos. Profundas divergências políticas colocavam-nos em confronto por causa de
+                diferentes graus de envolvimento no comércio exterior.</p>
+            <p class="text-end">TOPIK, S. A presença do estado na economia política do Brasil de 1889 a 1930. Rio de
+                Janeiro: Record, 1989 (adaptado).</p>
+            <p class="py-2">Para a caracterização do processo político durante a Primeira República, utiliza-se com
+                frequência a expressão Política do Café com Leite. No entanto, os textos apresentam a seguinte ressalva
+                a sua utilização:
+            </p>
             <div class="quest-body">
                 <ul class="list-group list-group-flush">
-
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="radio" id="r-3-1" onclick="testaQuestao('1')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">a) A riqueza gerada pelo café dava à oligarquia
+                            paulista a prerrogativa de indicar os candidatos à presidência, sem necessidade de alianças.
+
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-3-2" onclick="testaQuestao('2')" value="correta">
+                                <input type="radio" id="r-3-2" onclick="testaQuestao('2')">
                             </div>
                         </div>
 
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">b) As divisões políticas internas de cada estado da
+                            federação invalidavam o uso do conceito de aliança entre estados para este período.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-3-3" onclick="testaQuestao('3')">
+                                <input type="radio" id="r-3-3" onclick="testaQuestao('3')" value="correta">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">c) As disputas políticas do período contradiziam a
+                            suposta estabilidade da aliança entre mineiros e paulistas.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -265,9 +384,9 @@
                                 <input type="radio" id="r-3-4" onclick="testaQuestao('4')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">d) A centralização do poder no executivo federal
+                            impedia a formação de uma aliança duradoura entre as oligarquias.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -276,20 +395,58 @@
                                 <input type="radio" id="r-3-5" onclick="testaQuestao('5')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">e) A diversificação da produção e a preocupação com o
+                            mercado interno unificavam os interesses das oligarquias.
+                        </li>
                     </div>
 
                 </ul>
             </div>
         </div>
-        <div class="espacinho row">
+        <div class="espacinho row" style="margin-right: 30px;">
             <div class=" offset-1 col-md-10 a3 acertaresp">
-                <p>acertou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quidem voluptates quam aliquid, facere rerum necessitatibus sunt assumenda quo quisquam!</p>
+                <p>Correto! A alternativa correta é: Letra C.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A é incorreta. O texto não
+                    menciona que a oligarquia paulista indicava candidatos à presidência sem necessidade de alianças.
+                    Pelo contrário, fala das divergências políticas entre São Paulo e Minas.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. O texto não afirma
+                    que as divisões políticas internas invalidavam o conceito de aliança entre estados. Na verdade,
+                    discute as divergências políticas entre São Paulo e Minas, indicando que a aliança entre eles não
+                    era tão harmoniosa quanto a imagem do "Café com Leite" sugere.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C é correta. Esta afirmação está
+                    de acordo com a ideia apresentada nos textos. Ambos mencionam que a aliança não era estável e que
+                    havia conflitos e desacertos entre São Paulo e Minas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D é incorreta. O texto não
+                    menciona a centralização do poder no executivo federal como fator impeditivo para uma aliança
+                    duradoura entre as oligarquias. Ele destaca as divergências políticas entre São Paulo e Minas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. O texto não fala
+                    sobre a diversificação da produção e a preocupação com o mercado interno como elementos unificadores
+                    dos interesses das oligarquias. Pelo contrário, destaca as divergências políticas.
+                </p>
             </div>
             <div class="offset-1 col-md-10 e3 acertaresp">
-                <p>errou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet expedita asperiores adipisci possimus repudiandae, esse error soluta blanditiis sit voluptatibus provident.</p>
+                <p>Errado! A alternativa correta é: Letra C.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A é incorreta. O texto não
+                    menciona que a oligarquia paulista indicava candidatos à presidência sem necessidade de alianças.
+                    Pelo contrário, fala das divergências políticas entre São Paulo e Minas.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. O texto não afirma
+                    que as divisões políticas internas invalidavam o conceito de aliança entre estados. Na verdade,
+                    discute as divergências políticas entre São Paulo e Minas, indicando que a aliança entre eles não
+                    era tão harmoniosa quanto a imagem do "Café com Leite" sugere.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C é correta. Esta afirmação está
+                    de acordo com a ideia apresentada nos textos. Ambos mencionam que a aliança não era estável e que
+                    havia conflitos e desacertos entre São Paulo e Minas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D é incorreta. O texto não
+                    menciona a centralização do poder no executivo federal como fator impeditivo para uma aliança
+                    duradoura entre as oligarquias. Ele destaca as divergências políticas entre São Paulo e Minas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. O texto não fala
+                    sobre a diversificação da produção e a preocupação com o mercado interno como elementos unificadores
+                    dos interesses das oligarquias. Pelo contrário, destaca as divergências políticas.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -303,31 +460,31 @@
     <!-- Pergunta 4 -->
     <div class="questao-content container">
         <div class="row">
-            <h1>PERGUNTA 4:</h1>
+            <p><span class="fw-bold">4-</span> (UEL) A República Oligárquica no Brasil (1891- 1930) conheceu vários
+                movimentos armados de contestação. Sobre o tema, assinale a alternativa correta:
+            </p>
             <div class="quest-body">
                 <ul class="list-group list-group-flush">
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-4-1" onclick="testaQuestao('1')">
+                                <input type="radio" id="r-4-1" onclick="testaQuestao('1')" value="correta">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">a) O Movimento Tenentista foi representado pela Revolta
+                            do Forte de Copacabana (1922) em sua expressão armada inicial. </li>
                     </div>
 
                     <div class="input-group m-3">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
-                                <input type="radio" id="r-4-2" onclick="testaQuestao('2')" value="correta">
+                                <input type="radio" id="r-4-2" onclick="testaQuestao('2')">
                             </div>
                         </div>
 
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">b) A Coluna Prestes representou uma tentativa militar
+                            de divulgar o Socialismo, fazer a reforma agrária e levar justiça social ao campo. </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -336,9 +493,9 @@
                                 <input type="radio" id="r-4-3" onclick="testaQuestao('3')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">c) A Revolta do Contestado foi caracterizada pela
+                            exigência popular de uma jornada de trabalho de 8 horas diárias e liberdade de imprensa.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -347,9 +504,8 @@
                                 <input type="radio" id="r-4-4" onclick="testaQuestao('4')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">d) A Campanha de Canudos e destruição do "arraial" de
+                            Antônio Conselheiro marcou a Presidência de Rodrigues Alves.</li>
                     </div>
 
                     <div class="input-group m-3">
@@ -358,20 +514,55 @@
                                 <input type="radio" id="r-4-5" onclick="testaQuestao('5')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">e) Alegando vocação de neutralidade o Brasil não
+                            participou da Primeira Guerra Mundial.</li>
                     </div>
 
                 </ul>
             </div>
         </div>
-        <div class="espacinho row">
+        <div class="espacinho row" style="margin-right: 30px;">
             <div class=" offset-1 col-md-10 a4 acertaresp">
-                <p>acertou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quidem voluptates quam aliquid, facere rerum necessitatibus sunt assumenda quo quisquam!</p>
+                <p>Correto! A alternativa correta é: Letra A.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está correta. O Movimento
+                    Tenentista teve início com a Revolta do Forte de Copacabana em 1922, e os tenentes eram militares
+                    que contestavam a ordem oligárquica vigente.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. A principal
+                    motivação da Coluna Prestes não era promover o socialismo ou a reforma agrária, mas sim protestar
+                    contra a corrupção, o clientelismo político e a falta de representatividade no governo. Embora
+                    inicialmente não tivessem uma ideologia política unificada, os tenentes buscavam reformas políticas
+                    e sociais no Brasil.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. A Revolta do
+                    Contestado, ocorrida entre 1912 e 1916, não estava centrada nessas demandas específicas. Ela foi
+                    motivada por questões sociais, econômicas e culturais na região do Contestado, não relacionadas
+                    diretamente à jornada de trabalho ou à liberdade de imprensa.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. A Campanha de
+                    Canudos ocorreu durante a Presidência de Floriano Peixoto, e não de Rodrigues Alves.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. O Brasil
+                    participou da Primeira Guerra Mundial ao lado das potências Aliadas, não adotando uma posição de
+                    neutralidade.</p>
             </div>
             <div class="offset-1 col-md-10 e4 acertaresp">
-                <p>errou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet expedita asperiores adipisci possimus repudiandae, esse error soluta blanditiis sit voluptatibus provident.</p>
+                <p>Errado! A alternativa correta é: Letra A.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está correta. O Movimento
+                    Tenentista teve início com a Revolta do Forte de Copacabana em 1922, e os tenentes eram militares
+                    que contestavam a ordem oligárquica vigente.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. A principal
+                    motivação da Coluna Prestes não era promover o socialismo ou a reforma agrária, mas sim protestar
+                    contra a corrupção, o clientelismo político e a falta de representatividade no governo. Embora
+                    inicialmente não tivessem uma ideologia política unificada, os tenentes buscavam reformas políticas
+                    e sociais no Brasil.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. A Revolta do
+                    Contestado, ocorrida entre 1912 e 1916, não estava centrada nessas demandas específicas. Ela foi
+                    motivada por questões sociais, econômicas e culturais na região do Contestado, não relacionadas
+                    diretamente à jornada de trabalho ou à liberdade de imprensa.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. A Campanha de
+                    Canudos ocorreu durante a Presidência de Floriano Peixoto, e não de Rodrigues Alves.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. O Brasil
+                    participou da Primeira Guerra Mundial ao lado das potências Aliadas, não adotando uma posição de
+                    neutralidade.</p>
             </div>
         </div>
         <div class="row">
@@ -385,7 +576,11 @@
     <!-- Pergunta 5 -->
     <div class="questao-content container">
         <div class="row">
-            <h1>PERGUNTA 5:</h1>
+            <p><span class="fw-bold">5-</span> (IFMT) Podemos afirmar que, desde o advento da República no Brasil, não
+                foram firmadas as bases da democracia, em que todos os cidadãos expressam sua posição política, mas,
+                sim, firmada uma pré-democracia, na qual uma elite herdeira da tradição colonial (oligarquia) impunha
+                seus interesses sobre o povo. Essa elite era herdeira da tradição colonial. No período da República
+                Velha, a política se caracterizava:</p>
             <div class="quest-body">
                 <ul class="list-group list-group-flush">
 
@@ -395,9 +590,9 @@
                                 <input type="radio" id="r-5-1" onclick="testaQuestao('1')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">a) pelo coronelismo. O título de coronel surgiu no
+                            período colonial e era concedido aos grandes mineradores e comerciantes portugueses.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -407,9 +602,9 @@
                             </div>
                         </div>
 
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">b) pelo voto de cabresto. As pessoas que dependiam dos
+                            favores dos coronéis votavam nos candidatos apoiados por eles.
+                        </li>
                     </div>
 
                     <div class="input-group m-3">
@@ -418,9 +613,8 @@
                                 <input type="radio" id="r-5-3" onclick="testaQuestao('3')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">c) pelos currais eleitorais, em que os coronéis da
+                            política trocavam favores com o imperador para obter privilégios.</li>
                     </div>
 
                     <div class="input-group m-3">
@@ -429,9 +623,8 @@
                                 <input type="radio" id="r-5-4" onclick="testaQuestao('4')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">d) pelo coronelismo. Este esquema dificultava a
+                            corrupção no Brasil e se mantém até os dias atuais.</li>
                     </div>
 
                     <div class="input-group m-3">
@@ -440,20 +633,73 @@
                                 <input type="radio" id="r-5-5" onclick="testaQuestao('5')">
                             </div>
                         </div>
-                        <li class="list-group-item content-resp">Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Vitae repellat repellendus, possimus enim doloribus asperiores unde dicta commodi
-                            nostrum facere quia porro perferendis esse voluptas. Sint minus rem vero debitis.</li>
+                        <li class="list-group-item content-resp">e) pela política do Café com Leite, constituída pela
+                            alternância de cariocas e gaúchos na Presidência da República.</li>
                     </div>
 
                 </ul>
             </div>
         </div>
-        <div class="espacinho row">
+        <div class="espacinho row" style="margin-right: 30px;">
             <div class=" offset-1 col-md-10 a5 acertaresp">
-                <p>acertou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quidem voluptates quam aliquid, facere rerum necessitatibus sunt assumenda quo quisquam!</p>
+                <p>Correto! A alternativa correta é: Letra B.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. A afirmativa
+                    associa o título de coronel ao período colonial, o que não é correto. Na República Velha, o termo
+                    "coronelismo" refere-se ao poder político exercido por líderes locais influentes, os chamados
+                    coronéis, especialmente nas áreas rurais.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está correta. O voto de
+                    cabresto era uma das formas mais efetivas de se manipular as eleições no país. Pelo fato de o voto
+                    ser aberto e de haver uma dependência das pessoas em relação aos coronéis, era fácil decidir os
+                    candidatos eleitos. Esse tipo de voto garantia o monopólio político das diferentes oligarquias pelo
+                    país e se constituiu como estrutura fundamental para o funcionamento da Primeira República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Essa afirmativa
+                    confunde o contexto histórico. Durante a República Velha, não havia a figura de um imperador, pois o
+                    Brasil já havia adotado um sistema republicano. Além disso, os currais eleitorais eram espaços onde
+                    os coronéis exerciam controle sobre os eleitores, mas não envolviam troca de favores com um
+                    imperador.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. O coronelismo
+                    não dificultava a corrupção; pelo contrário, muitas vezes, ele próprio era associado a práticas
+                    corruptas. Além disso, afirmar que o coronelismo se mantém até os dias atuais é impreciso, pois as
+                    dinâmicas políticas mudaram significativamente ao longo do tempo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. A política do
+                    Café com Leite caracterizou-se pela alternância de presidentes oriundos dos estados de São Paulo
+                    (representado pelo café) e Minas Gerais (representado pelo leite), não por cariocas e gaúchos. Essa
+                    prática buscava equilibrar os interesses das oligarquias desses dois estados no poder central.
+                </p>
             </div>
             <div class="offset-1 col-md-10 e5 acertaresp">
-                <p>errou!! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet expedita asperiores adipisci possimus repudiandae, esse error soluta blanditiis sit voluptatibus provident.</p>
+                <p>Errado! A alternativa correta é: Letra B.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. A afirmativa
+                    associa o título de coronel ao período colonial, o que não é correto. Na República Velha, o termo
+                    "coronelismo" refere-se ao poder político exercido por líderes locais influentes, os chamados
+                    coronéis, especialmente nas áreas rurais.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está correta. O voto de
+                    cabresto era uma das formas mais efetivas de se manipular as eleições no país. Pelo fato de o voto
+                    ser aberto e de haver uma dependência das pessoas em relação aos coronéis, era fácil decidir os
+                    candidatos eleitos. Esse tipo de voto garantia o monopólio político das diferentes oligarquias pelo
+                    país e se constituiu como estrutura fundamental para o funcionamento da Primeira República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Essa afirmativa
+                    confunde o contexto histórico. Durante a República Velha, não havia a figura de um imperador, pois o
+                    Brasil já havia adotado um sistema republicano. Além disso, os currais eleitorais eram espaços onde
+                    os coronéis exerciam controle sobre os eleitores, mas não envolviam troca de favores com um
+                    imperador.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. O coronelismo
+                    não dificultava a corrupção; pelo contrário, muitas vezes, ele próprio era associado a práticas
+                    corruptas. Além disso, afirmar que o coronelismo se mantém até os dias atuais é impreciso, pois as
+                    dinâmicas políticas mudaram significativamente ao longo do tempo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. A política do
+                    Café com Leite caracterizou-se pela alternância de presidentes oriundos dos estados de São Paulo
+                    (representado pelo café) e Minas Gerais (representado pelo leite), não por cariocas e gaúchos. Essa
+                    prática buscava equilibrar os interesses das oligarquias desses dois estados no poder central.
+                </p>
             </div>
         </div>
         <div class="row">
@@ -461,75 +707,783 @@
                 <button type="button" class="btn btn-primary" onclick="enviaResposta('5')">Ver resposta</button>
             </div>
         </div>
+        <hr>
     </div>
 
-       <!--  footer -->
+    <!-- Pergunta 6 -->
+    <div class="questao-content container">
+        <div class="row">
+            <p><span class="fw-bold">6-</span> (ENEM) A Revolta da Vacina (1904) mostrou claramente o aspecto defensivo,
+                desorganizado, fragmentado da ação popular. Não se negava o Estado, não se reivindicava participação nas
+                decisões políticas; defendiam-se valores e direitos considerados acima da intervenção do Estado.</p>
+            <p class="text-end">CARVALHO, J. M. Os bestializados: o Rio de Janeiro e a República
+                que não foi. São Paulo: Cia. das Letras, 1987 (adaptado).
+            </p>
+            <p>A mobilização analisada representou um alerta, na medida em que a ação popular questionava</p>
+            <div class="quest-body">
+                <ul class="list-group list-group-flush">
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-6-1" onclick="testaQuestao('1')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">a) a alta de preços.
+                        </li>
+                    </div>
 
-   <footer class="container-fluid">
-    <div class="row teste">
-       <article class="col-md-6">
-          <div class="perfil">
-             <img src="../images/3.jpg" alt="">
-             <div class="links">
-                <a href="#" class="cor-default-footer" id="hover1">
-                   <h4 class="cor-default-footer">Rani Vitória</h4>
-                   <ul class="social_icon_footer">
-                      <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram" aria-hidden="true"></i>
-                            Instagram</a>
-                      </li>
-                   </ul>
-                </a>
-                <a href="#" class="cor-default-footer">
-                   <ul class="social_icon_footer">
-                      <li><a href="https://github.com/ranyviih"><i class="fa fa-github" aria-hidden="true"></i>
-                            Github</a>
-                      </li>
-                   </ul>
-                </a>
-             </div>
-          </div>
-       </article>
-       <article class="perfil col-md-6">
-          <div class="perfil">
-             <img src="../images/deb-footer.jpg" alt="deb">
-             <div class="links">
-                <a href="#" class="cor-default-footer">
-                   <h4 class="cor-default-footer">Débora Peres</h4>
-                   <ul class="social_icon_footer">
-                      <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram" aria-hidden="true"></i>
-                            Instagram</a>
-                      </li>
-                   </ul>
-                </a>
-                <a href="#" class="cor-default-footer">
-                   <ul class="social_icon_footer">
-                      <li><a href="https://github.com/debdebinha"><i class="fa fa-github" aria-hidden="true"></i>
-                            Github</a>
-                      </li>
-                   </ul>
-                </a>
-             </div>
-          </div>
-       </article>
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-6-2" onclick="testaQuestao('2')">
+                            </div>
+                        </div>
+
+                        <li class="list-group-item content-resp">b) a política clientelista.
+
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-6-3" onclick="testaQuestao('3')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">c) as reformas urbanas.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-6-4" onclick="testaQuestao('4')" value="correta">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">d) o arbítrio governamental.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-6-5" onclick="testaQuestao('5')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">e) as práticas eleitorais.</li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class=" offset-1 col-md-10 a6 acertaresp">
+                <p>Correto! A alternativa correta é: Letra D.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. A Revolta da
+                    Vacina não estava relacionada a questões econômicas, como a alta de preços, mas sim à imposição da
+                    vacinação obrigatória.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. A revolta não
+                    estava diretamente ligada à política clientelista, mas sim à questão da imposição da vacinação e à
+                    resistência popular a essa medida.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Embora a
+                    Revolta da Vacina tenha ocorrido em um contexto de reformas urbanas no Rio de Janeiro, o movimento
+                    não questionava diretamente essas reformas, mas sim a forma autoritária como a vacinação obrigatória
+                    estava sendo implementada.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. A Revolta da
+                    Vacina de 1904, muitas vezes considerado um movimento apenas contra a Vacina da Varíola, foi um dos
+                    acontecimentos mais emblemáticos da 1a República. Inicialmente entendido como uma questão moral em
+                    relação às mulheres, o conflito revelou uma face autoritária da política oligárquica do período. No
+                    Rio de Janeiro foram montadas barricadas nos diversos pontos de conflito. A ação violenta do Estado
+                    contra os manifestantes foi percebida e aponta as contradições do projeto republicano em sua ideia
+                    de liberdade e de igualdade para todos. As reivindicações se espalhavam e iam desde a questão do
+                    voto fechado até o respeito à moralidade e ao pudor em relação ao corpo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. A Revolta da
+                    Vacina não estava relacionada a questões eleitorais, mas sim à imposição de políticas sanitárias
+                    pelo governo.
+                </p>
+            </div>
+            <div class="offset-1 col-md-10 e6 acertaresp">
+                <p>Errado! A alternativa correta é: Letra D.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. A Revolta da
+                    Vacina não estava relacionada a questões econômicas, como a alta de preços, mas sim à imposição da
+                    vacinação obrigatória.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. A revolta não
+                    estava diretamente ligada à política clientelista, mas sim à questão da imposição da vacinação e à
+                    resistência popular a essa medida.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Embora a
+                    Revolta da Vacina tenha ocorrido em um contexto de reformas urbanas no Rio de Janeiro, o movimento
+                    não questionava diretamente essas reformas, mas sim a forma autoritária como a vacinação obrigatória
+                    estava sendo implementada.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. A Revolta da
+                    Vacina de 1904, muitas vezes considerado um movimento apenas contra a Vacina da Varíola, foi um dos
+                    acontecimentos mais emblemáticos da 1a República. Inicialmente entendido como uma questão moral em
+                    relação às mulheres, o conflito revelou uma face autoritária da política oligárquica do período. No
+                    Rio de Janeiro foram montadas barricadas nos diversos pontos de conflito. A ação violenta do Estado
+                    contra os manifestantes foi percebida e aponta as contradições do projeto republicano em sua ideia
+                    de liberdade e de igualdade para todos. As reivindicações se espalhavam e iam desde a questão do
+                    voto fechado até o respeito à moralidade e ao pudor em relação ao corpo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. A Revolta da
+                    Vacina não estava relacionada a questões eleitorais, mas sim à imposição de políticas sanitárias
+                    pelo governo.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-10 p-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="enviaResposta('6')">Ver resposta</button>
+            </div>
+        </div>
+        <hr>
     </div>
+
+    <!-- Pergunta 7 -->
+    <div class="questao-content container">
+        <div class="row">
+            <p><span class="fw-bold">7-</span> (UFRGS) Sobre a história social do Brasil na Primeira República, assinale
+                a alternativa correta.</p>
+            <div class="quest-body">
+                <ul class="list-group list-group-flush">
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-7-1" onclick="testaQuestao('1')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">a) A obrigatoriedade da vacinação contra a febre
+                            amarela foi o principal motivo para a deflagração do conflito entre as forças republicanas e
+                            os sertanejos que habitavam o arraial de Canudos, no interior da Bahia.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-7-2" onclick="testaQuestao('2')">
+                            </div>
+                        </div>
+
+                        <li class="list-group-item content-resp">b) O processo de modernização e de higienização dos
+                            espaços públicos da capital da República levou a um deslocamento das elites econômicas para
+                            os morros, zonas consideradas mais saudáveis e com vista privilegiada da cidade.
+
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-7-3" onclick="testaQuestao('3')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">c) A criação dos primeiros clubes de futebol
+                            caracterizou um importante movimento de integração social e racial no país, uma vez que
+                            todas as equipes eram formadas predominantemente pela população pobre e negra das periferias
+                            urbanas.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-7-4" onclick="testaQuestao('4')" value="correta">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">d) A imigração européia no Rio Grande do Sul e em São
+                            Paulo favoreceu a difusão de ideais políticos que marcaram o desenvolvimento do movimento
+                            operário brasileiro.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-7-5" onclick="testaQuestao('5')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">e) O modernismo brasileiro caracterizou-se pelo
+                            afastamento da temática nacional, copiando valores sociais e estéticos europeus.</li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class=" offset-1 col-md-10 a7 acertaresp">
+                <p>Correto! A alternativa correta é: Letra D.</p>
+
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. O conflito em
+                    Canudos, conhecido como a Guerra de Canudos, foi motivado por uma série de fatores, incluindo
+                    questões sociais, econômicas, religiosas e políticas. A vacinação obrigatória não foi o principal
+                    motivo do conflito.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. O processo de
+                    modernização e higienização no período da Primeira República geralmente resultou em ações que
+                    segregavam e marginalizavam a população mais pobre, especialmente aquela que vivia nas favelas e
+                    cortiços, e não promoveu um deslocamento das elites para essas áreas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Embora o
+                    futebol no Brasil tenha se popularizado entre diversas camadas sociais, inicialmente, as equipes de
+                    futebol eram formadas por jogadores de classes mais abastadas, e o esporte só se democratizou mais
+                    tarde.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. A chegada de
+                    imigrantes europeus no Brasil após o fim da escravidão em 1888 para trabalhar nas lavouras de café e
+                    nas fábricas provocou o êxodo rural de milhares de ex-escravizados no país em direção a grandes
+                    centros das cidades, onde não foram absorvidos. A difusão de ideais políticos ligados ao anarquismo
+                    e ao socialismo nas grandes capitais também foi uma das consequências dessa imigração.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. O Modernismo
+                    brasileiro, especialmente na Semana de Arte Moderna de 1922, foi marcado pela busca por uma
+                    expressão artística genuinamente brasileira, rompendo com padrões estéticos europeus e buscando uma
+                    identidade cultural nacional.
+                </p>
+
+            </div>
+            <div class="offset-1 col-md-10 e7 acertaresp">
+                <p>Errado! A alternativa correta é: Letra D.</p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. O conflito em
+                    Canudos, conhecido como a Guerra de Canudos, foi motivado por uma série de fatores, incluindo
+                    questões sociais, econômicas, religiosas e políticas. A vacinação obrigatória não foi o principal
+                    motivo do conflito.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. O processo de
+                    modernização e higienização no período da Primeira República geralmente resultou em ações que
+                    segregavam e marginalizavam a população mais pobre, especialmente aquela que vivia nas favelas e
+                    cortiços, e não promoveu um deslocamento das elites para essas áreas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. Embora o
+                    futebol no Brasil tenha se popularizado entre diversas camadas sociais, inicialmente, as equipes de
+                    futebol eram formadas por jogadores de classes mais abastadas, e o esporte só se democratizou mais
+                    tarde.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. A chegada de
+                    imigrantes europeus no Brasil após o fim da escravidão em 1888 para trabalhar nas lavouras de café e
+                    nas fábricas provocou o êxodo rural de milhares de ex-escravizados no país em direção a grandes
+                    centros das cidades, onde não foram absorvidos. A difusão de ideais políticos ligados ao anarquismo
+                    e ao socialismo nas grandes capitais também foi uma das consequências dessa imigração.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está incorreta. O Modernismo
+                    brasileiro, especialmente na Semana de Arte Moderna de 1922, foi marcado pela busca por uma
+                    expressão artística genuinamente brasileira, rompendo com padrões estéticos europeus e buscando uma
+                    identidade cultural nacional.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-10 p-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="enviaResposta('7')">Ver resposta</button>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Pergunta 8 -->
+    <div class="questao-content container">
+        <div class="row">
+            <p><span class="fw-bold">8-</span> (PUC) A “crise dos anos 20” ou “crise da Primeira República” foi um
+                período de críticas à ordem política e social vigente e de reflexões sobre a identi-
+                dade nacional brasileira. Sobre as manifestações que expressaram a crise dos anos 20, NÃO É CORRETO
+                afirmar que:
+            </p>
+            <div class="quest-body">
+                <ul class="list-group list-group-flush">
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-8-1" onclick="testaQuestao('1')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">a) o modernismo, ao tematizar a identidade nacional
+                            brasileira, valorizou a especificidade e singularidade da cultura brasileira.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-8-2" onclick="testaQuestao('2')">
+                            </div>
+                        </div>
+
+                        <li class="list-group-item content-resp">b) os militares, através da jovem oficialidade,
+                            manifestaram o seu descontentamento com os interesses particularistas das oligarquias
+                            estaduais.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-8-3" onclick="testaQuestao('3')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">c) os operários se organizaram, através de sindicatos e
+                            partidos, para reivindicar a promulgação de leis trabalhistas.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-8-4" onclick="testaQuestao('4')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">d) educadores propuseram novas práticas escolares, e
+                            higienistas investiram na criação de órgãos públicos para a promoção do saneamento e da
+                            saúde pública.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-8-5" onclick="testaQuestao('5')" value="correta">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">e) os partidos políticos estaduais reivindicaram a
+                            extensão do voto às mulheres, aos jovens acima de 16 anos e aos analfabetos.
+                        </li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class=" offset-1 col-md-10 a8 acertaresp">
+                <p>Correto! A alternativa correta é: Letra E.</p>
+
+                <!-- explicação -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está correta. O movimento
+                    modernista no Brasil, na década de 1920, destacou-se por sua ênfase na valorização da cultura
+                    brasileira e na busca por uma identidade nacional autêntica.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está correta. Durante a década
+                    de 1920, a jovem oficialidade do Exército, conhecida como "tenentismo", manifestou-se contra a ordem
+                    política estabelecida, representada pelas oligarquias estaduais. Os tenentes buscavam reformas e
+                    criticavam a corrupção e o clientelismo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está correta. No contexto da
+                    crise dos anos 20, houve uma crescente organização dos trabalhadores, que buscavam melhores
+                    condições de trabalho e reivindicavam a promulgação de leis trabalhistas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. Diante da crise,
+                    educadores propuseram mudanças no sistema educacional, e higienistas investiram em ações para
+                    melhorar o saneamento e a saúde pública como parte dos esforços de modernização.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. A “crise dos anos
+                    20” foi um período importante para a reconfiguração das forças políticas nacionais quanto à vida
+                    social e política do país. Entretanto, nesse período não se garantiu o direito ao voto às mulheres,
+                    nem aos jovens acima de 16 anos e aos analfabetos. O voto feminino foi instituído em 1932 após
+                    intensa luta feminista no país. O voto aos jovens acima de 16 anos e aos analfabetos só foi
+                    garantido em constituição a partir de 1988.
+                </p>
+
+            </div>
+
+            <div class="offset-1 col-md-10 e8 acertaresp">
+                <p>Errado! A alternativa correta é: Letra E.</p>
+
+                <!-- explicação -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está correta. O movimento
+                    modernista no Brasil, na década de 1920, destacou-se por sua ênfase na valorização da cultura
+                    brasileira e na busca por uma identidade nacional autêntica.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está correta. Durante a década
+                    de 1920, a jovem oficialidade do Exército, conhecida como "tenentismo", manifestou-se contra a ordem
+                    política estabelecida, representada pelas oligarquias estaduais. Os tenentes buscavam reformas e
+                    criticavam a corrupção e o clientelismo.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está correta. No contexto da
+                    crise dos anos 20, houve uma crescente organização dos trabalhadores, que buscavam melhores
+                    condições de trabalho e reivindicavam a promulgação de leis trabalhistas.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está correta. Diante da crise,
+                    educadores propuseram mudanças no sistema educacional, e higienistas investiram em ações para
+                    melhorar o saneamento e a saúde pública como parte dos esforços de modernização.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. A “crise dos anos
+                    20” foi um período importante para a reconfiguração das forças políticas nacionais quanto à vida
+                    social e política do país. Entretanto, nesse período não se garantiu o direito ao voto às mulheres,
+                    nem aos jovens acima de 16 anos e aos analfabetos. O voto feminino foi instituído em 1932 após
+                    intensa luta feminista no país. O voto aos jovens acima de 16 anos e aos analfabetos só foi
+                    garantido em constituição a partir de 1988.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="offset-10 p-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="enviaResposta('8')">Ver resposta</button>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Pergunta 9 -->
+    <div class="questao-content container">
+        <div class="row">
+            <p><span class="fw-bold">9-</span> (UEG GO - 2020) Análises recentes das sucessões presidenciais na Primeira
+                República (1889-1930) mostram que a famosa aliança entre Minas Gerais e São Paulo, chamada de política
+                do “café-com-leite”, não controlou de forma exclusiva o regime republicano. Havia outros quatro estados,
+                pelo menos, com acentuada importância no cenário político: Rio Grande do Sul, Rio de Janeiro, Bahia e
+                Pernambuco.</p>
+            <p class="text-end">VISCARDI, C. M. R. Aliança café com política. Revista Nossa História. São Paulo, ano 2,
+                n. 19, p. 37, maio 2005.
+            </p>
+            <p>O questionamento da chamada “política do café-com leite” foi decisivo para a eclosão da</p>
+            <div class="quest-body">
+                <ul class="list-group list-group-flush">
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-9-1" onclick="testaQuestao('1')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">a) Revolução Constitucionalista, que agregava
+                            interesses do Sudeste e do Nordeste.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-9-2" onclick="testaQuestao('2')">
+                            </div>
+                        </div>
+
+                        <li class="list-group-item content-resp">b) Política dos Governadores, que unia os interesses de
+                            São Paulo e Minas Gerais.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-9-3" onclick="testaQuestao('3')" value="correta">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">c) Revolução de 1930, movimento revolucionário que pôs
+                            fim à Velha República.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-9-4" onclick="testaQuestao('4')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">d) Liderança contestadora de Padre Cícero sobre a
+                            hegemonia mineira e paulista.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-9-5" onclick="testaQuestao('5')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">e) Revolução Farroupilha, que defendia a emancipação do
+                            Rio Grande do Sul.</li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class=" offset-1 col-md-10 a9 acertaresp">
+                <p>Correto! A alternativa correta é: Letra C.</p>
+
+                <!-- explicação -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A é incorreta. A Revolução
+                    Constitucionalista de 1932 ocorreu em São Paulo, mas não agregou diretamente interesses do Nordeste.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. A Política dos
+                    Governadores é um fenômeno posterior, que ocorreu durante a Era Vargas e não durante a Primeira
+                    República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está correta. A Revolução de
+                    1930 foi um movimento revolucionário que resultou no fim da Primeira República e marcou o
+                    encerramento da política do "café-com-leite".
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D é incorreta. Padre Cícero foi
+                    uma figura importante, mas sua liderança não foi central para contestar a hegemonia mineira e
+                    paulista durante a Primeira República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. A Revolução
+                    Farroupilha ocorreu no século XIX e não tem relação com a Primeira República ou a política do
+                    "café-com-leite".
+                </p>
+            </div>
+            <div class="offset-1 col-md-10 e9 acertaresp">
+                <p>Errado! A alternativa correta é: Letra C.</p>
+
+                <!-- explicação -->
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A é incorreta. A Revolução
+                    Constitucionalista de 1932 ocorreu em São Paulo, mas não agregou diretamente interesses do Nordeste.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B é incorreta. A Política dos
+                    Governadores é um fenômeno posterior, que ocorreu durante a Era Vargas e não durante a Primeira
+                    República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está correta. A Revolução de
+                    1930 foi um movimento revolucionário que resultou no fim da Primeira República e marcou o
+                    encerramento da política do "café-com-leite".
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D é incorreta. Padre Cícero foi
+                    uma figura importante, mas sua liderança não foi central para contestar a hegemonia mineira e
+                    paulista durante a Primeira República.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E é incorreta. A Revolução
+                    Farroupilha ocorreu no século XIX e não tem relação com a Primeira República ou a política do
+                    "café-com-leite".
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-10 p-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="enviaResposta('9')">Ver resposta</button>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Pergunta 10 -->
+    <div class="questao-content container">
+        <div class="row">
+            <p><span class="fw-bold">10-</span> (UNIOESTE) “Canudos de hoje é a terceira da história. A primeira, criada
+                no século 18, foi destruída pelo Exército em 1897, no fim da guerra. A segunda surgiu por volta de 1910,
+                construída sobre as ruínas da anterior. Os primeiros habitantes eram sobreviventes do conflito. Em 1950,
+                com o início das obras da barragem que inundaria o local, os moradores começaram a sair, formando um
+                novo vilarejo a uma distância de cerca de 20 quilômetros. A segunda Canudos desapareceu sob as águas do
+                açude do Cocorobó, em 1969. O vilarejo tornou-se, em 1985, a terceira Canudos.”</p>
+            <p class="text-end">ALMEIDA, M. V. “Destruída duas vezes, Canudos sobrevive em meio a escombros e miséria”.
+            </p>
+            <p>A cidade atual, com 16 mil habitantes, apresenta graves problemas sociais. Por isso, permanecer em
+                Canudos expõe a resistência às péssimas condições de vida que não são adversidades momentâneas. Sobre a
+                historicidade que envolve Canudos é CORRETO afirmar.</p>
+            <div class="quest-body">
+                <ul class="list-group list-group-flush">
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-10-1" onclick="testaQuestao('1')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">a) Antônio Conselheiro conseguiu desviar a atenção da
+                            população, afastando-os das contestações sobre os altos impostos e se restringindo às
+                            crenças religiosas pacíficas.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-10-2" onclick="testaQuestao('2')">
+                            </div>
+                        </div>
+
+                        <li class="list-group-item content-resp">b) O predomínio de uma imagem messiânica do conflito
+                            ocorrido em Canudos no século XIX permitiu um grande desenvolvimento econômico na região,
+                            advindo tanto do turismo quanto das explorações arqueológicas do lugar.
+
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-10-3" onclick="testaQuestao('3')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">c) A tentativa de conservar modos de vida e garantir
+                            direitos se contrasta com a seca, fome, falta de perspectivas e renda na região. Por isso,
+                            hoje o povoado está abandonado.</li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-10-4" onclick="testaQuestao('4')">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">d) A construção da barragem fez parte de um conjunto de
+                            ações sugeridas como parte do combate à seca e desenvolvimento econômico do Nordeste.
+                            Portanto, sua presença na história de Canudos não prejudicou a memória do lugar, pois
+                            conservou grande parte da cidade antiga.
+                        </li>
+                    </div>
+
+                    <div class="input-group m-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" id="r-10-5" onclick="testaQuestao('5')" value="correta">
+                            </div>
+                        </div>
+                        <li class="list-group-item content-resp">e) O processo histórico que envolve a constituição da
+                            República, ao final do século XIX, indica contestações ao projeto de nação em curso, uma vez
+                            que muitos conflitos marcaram esse momento, apontando tensões e desigualdades fortemente
+                            repreendidas.</li>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+        <div class="espacinho row" style="margin-right: 30px;">
+            <div class=" offset-1 col-md-10 a10 acertaresp">
+                <p>Correto! A alternativa correta é: Letra E.</p>
+
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. Antônio
+                    Conselheiro liderou um movimento em Canudos, mas a revolta em Canudos não pode ser simplificada como
+                    uma mera questão de desvio de atenção dos altos impostos. O contexto envolvia uma série de fatores
+                    sociais, econômicos e políticos, incluindo a insatisfação com a ordem republicana e o abandono da
+                    região pelo poder central.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. Não há
+                    evidências históricas que sustentem que o predomínio de uma imagem messiânica tenha permitido um
+                    grande desenvolvimento econômico na região. A história de Canudos é marcada por tragédias e
+                    destruições.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. A assertiva
+                    sugere que a tentativa de conservar modos de vida e garantir direitos em Canudos se contrasta com a
+                    situação atual de abandono na região, caracterizada pela seca, fome, falta de perspectivas e renda.
+                    No entanto, o texto original não fornece informações suficientes para apoiar essa afirmação. A
+                    descrição do abandono e das condições atuais em Canudos não está diretamente relacionada à tentativa
+                    de conservar modos de vida e garantir direitos.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. A construção da
+                    barragem e a inundação do local prejudicaram significativamente a memória de Canudos, pois
+                    resultaram na perda da cidade antiga. Muitas construções e vestígios históricos foram submersos.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está correta. A cidade de
+                    Canudos, que tinha como representante maior Antônio Conselheiro e existiu entre 1896 e 1897, foi uma
+                    das maiores contestações acerca do projeto de nação proposto pela elite governante da primeira
+                    República. Esse projeto era excludente, priorizando homens brancos e letrados (uma pequena parcela
+                    da população). O projeto de Canudos, por outro lado, era mais inclusivo e possuía uma percepção mais
+                    comunitária da vida e da produção, com a participação ampliada dos habitantes.
+                </p>
+            </div>
+            <div class="offset-1 col-md-10 e10 acertaresp">
+                <p>Errado! A alternativa correta é: Letra E.</p>
+
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa A está incorreta. Antônio
+                    Conselheiro liderou um movimento em Canudos, mas a revolta em Canudos não pode ser simplificada como
+                    uma mera questão de desvio de atenção dos altos impostos. O contexto envolvia uma série de fatores
+                    sociais, econômicos e políticos, incluindo a insatisfação com a ordem republicana e o abandono da
+                    região pelo poder central.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa B está incorreta. Não há
+                    evidências históricas que sustentem que o predomínio de uma imagem messiânica tenha permitido um
+                    grande desenvolvimento econômico na região. A história de Canudos é marcada por tragédias e
+                    destruições.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa C está incorreta. A assertiva
+                    sugere que a tentativa de conservar modos de vida e garantir direitos em Canudos se contrasta com a
+                    situação atual de abandono na região, caracterizada pela seca, fome, falta de perspectivas e renda.
+                    No entanto, o texto original não fornece informações suficientes para apoiar essa afirmação. A
+                    descrição do abandono e das condições atuais em Canudos não está diretamente relacionada à tentativa
+                    de conservar modos de vida e garantir direitos.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa D está incorreta. A construção da
+                    barragem e a inundação do local prejudicaram significativamente a memória de Canudos, pois
+                    resultaram na perda da cidade antiga. Muitas construções e vestígios históricos foram submersos.
+                </p>
+                <p><i class="fa fa-circle" style="font-size: 14px;"></i> A alternativa E está correta. A cidade de
+                    Canudos, que tinha como representante maior Antônio Conselheiro e existiu entre 1896 e 1897, foi uma
+                    das maiores contestações acerca do projeto de nação proposto pela elite governante da primeira
+                    República. Esse projeto era excludente, priorizando homens brancos e letrados (uma pequena parcela
+                    da população). O projeto de Canudos, por outro lado, era mais inclusivo e possuía uma percepção mais
+                    comunitária da vida e da produção, com a participação ampliada dos habitantes.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-10 p-2 mt-3">
+                <button type="button" class="btn btn-primary" onclick="enviaResposta('10')">Ver resposta</button>
+            </div>
+        </div>
+    </div>
+    <!-- fim do quizz -->
+
+    <!--  footer -->
+
+    <footer class="container-fluid">
+        <div class="row teste">
+            <article class="col-md-6">
+                <div class="perfil">
+                    <img src="../images/3.jpg" alt="">
+                    <div class="links">
+                        <a class="cor-default-footer" id="hover1">
+                            <h4 class="cor-default-footer">Rani Vitória</h4>
+                            <ul class="social_icon_footer">
+                                <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i>
+                                        Instagram</a>
+                                </li>
+                            </ul>
+                        </a>
+                        <a class="cor-default-footer">
+                            <ul class="social_icon_footer">
+                                <li><a href="https://github.com/ranyviih"><i class="fa fa-github"
+                                            aria-hidden="true"></i>
+                                        Github</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </article>
+            <article class="perfil col-md-6">
+                <div class="perfil">
+                    <img src="../images/deb-footer.jpg" alt="deb">
+                    <div class="links">
+                        <a class="cor-default-footer">
+                            <h4 class="cor-default-footer">Débora Peres</h4>
+                            <ul class="social_icon_footer">
+                                <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i>
+                                        Instagram</a>
+                                </li>
+                            </ul>
+                        </a>
+                        <a class="cor-default-footer">
+                            <ul class="social_icon_footer">
+                                <li><a href="https://github.com/debdebinha"><i class="fa fa-github"
+                                            aria-hidden="true"></i>
+                                        Github</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
 
     <div class="copyright">
-       <p>All Rights Reserved. &copy; 2023 | <a id="rodape-link" href="../index.html">BRASIL CONTEMPORÂNEO</a>
+       <p>All Rights Reserved. &copy; 2023 | <a id="rodape-link" href="republica-velha.html">BRASIL CONTEMPORÂNEO</a>
        </p>
     </div>
     </div>
     <!-- end footer -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-    <script src="../js/script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <script src="../js/script.js"></script>
 </body>
 
 </html>
