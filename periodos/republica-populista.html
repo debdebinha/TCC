@@ -15,13 +15,16 @@
 
 <body>
     <header>
-        <div class="container">
-            <div class="d_flex mt-1" id="header-container">
-                <div class="col-md-4 offset-2 col-sm-3">
+        <div class="container" id="header-container">
+            <div class="d_flex mt-1">
+                <div class="col-md-1 logo">
+                    <img src="../images/logo1.png" alt="Logo">
+                 </div>
+                 <div class="col-md-4 offset-1 col-sm-3">
                     <div class="logo">
-                        <a href="../index.html">Brasil Contemporâneo</a>
+                       <a href="../index.html">Brasil Contemporâneo</a>
                     </div>
-                </div>
+                 </div>
                 <div class="col-md-6 col-sm-9">
                     <div class="navbar-area">
                         <nav class="site-navbar">
@@ -41,10 +44,10 @@
                                     <a id="dropdown-name">Exercícios</a>
                                     <div class="dropdown-content">
                                         <a href="../exercicios/rep-velha-ex.html">República Velha</a>
-                                        <a href="#">Era Vargas</a>
-                                        <a href="#">Republica Populista</a>
-                                        <a href="#">Ditadura Militar</a>
-                                        <a href="#">Nova República</a>
+                                        <a href="../exercicios/era-vargas-ex.html">Era Vargas</a>
+                                        <a href="../exercicios/rep-populista-ex.html">Republica Populista</a>
+                                        <a href="../exercicios/ditadura-ex.html">Ditadura Militar</a>
+                                        <a href="../exercicios/nova-rep-ex.html">Nova República</a>
                                     </div>
                                 </li>
                                 <li><a href="">Referências</a></li>
@@ -284,7 +287,8 @@
                 <div class="container mt-5">
                     <div class="row text-center">
                         <div class="col-md-3">
-                            <img id="fotinha" class="py-1 mb-4" src="../images/vargas.jpg" alt="vargas">
+                            <img style=" width: 280px; height: 380px;" class="py-1 mb-4" src="../images/vargas.jpg"
+                                alt="vargas">
                         </div>
                         <div class="col-md-9">
                             <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Em agosto de
@@ -536,8 +540,34 @@
                 conservadores e militares preocupados com as propostas de reformas sociais e econômicas apresentadas
                 pelo governo, conhecidas como "Reformas de Base".
             </p>
-            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Em 31 de março de 1964, militares lideraram um movimento que depôs Goulart, levando-o ao exílio. O regime militar que se seguiu caracterizou-se por medidas autoritárias, censura, repressão política e perseguição a opositores. O Ato Institucional nº 5 (AI-5), promulgado em 1968, conferiu amplos poderes ao governo, intensificando a censura e a repressão. Durante esse período, houve uma significativa perseguição a dissidentes, resultando em prisões, torturas e perda de vidas. O regime começou a enfraquecer na década de 1970, e um processo gradual de abertura política teve início. A ditadura chegou ao fim em 1985 com a eleição indireta de Tancredo Neves, marcando o retorno do Brasil à democracia e o encerramento do período autoritário. O Golpe Militar de 1964 deixou marcas profundas na história política do Brasil, impactando a sociedade e moldando as dinâmicas políticas que se seguiram.
+            <p class="dot-markers"><i class="fa fa-circle" style="font-size: 14px;"></i> Em 31 de março de 1964,
+                militares lideraram um movimento que depôs Goulart, levando-o ao exílio. O regime militar que se seguiu
+                caracterizou-se por medidas autoritárias, censura, repressão política e perseguição a opositores. O Ato
+                Institucional nº 5 (AI-5), promulgado em 1968, conferiu amplos poderes ao governo, intensificando a
+                censura e a repressão. Durante esse período, houve uma significativa perseguição a dissidentes,
+                resultando em prisões, torturas e perda de vidas. O regime começou a enfraquecer na década de 1970, e um
+                processo gradual de abertura política teve início. A ditadura chegou ao fim em 1985 com a eleição
+                indireta de Tancredo Neves, marcando o retorno do Brasil à democracia e o encerramento do período
+                autoritário. O Golpe Militar de 1964 deixou marcas profundas na história política do Brasil, impactando
+                a sociedade e moldando as dinâmicas políticas que se seguiram.
             </p>
+        </div>
+        <hr>
+        
+        <!-- extras: video-aula e mapa mental -->
+        <h6 class="text-center fst-italic fw-bold">Extras</h6>
+        <div class="video-youtube">
+            <div class="py-5">
+                <h2>Vídeo-Aula por: <span class="fw-bold fst-italic"> Pedro Rennó, Professor de História e Filosofia</span></h2>
+                <div class="py-3">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/G9ub4tL2HOM?si=W23mNckye74eZb2b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Mapa Mental:</h2>
+            <img class="py-5 mapa-mental" src="../images/mapa-mental3.png" alt="Mapa Mental 3">
         </div>
     </div>
 
@@ -549,7 +579,7 @@
                 <div class="perfil">
                     <img src="../images/3.jpg" alt="">
                     <div class="links">
-                        <a href="#" class="cor-default-footer" id="hover1">
+                        <a class="cor-default-footer" id="hover1">
                             <h4 class="cor-default-footer">Rani Vitória</h4>
                             <ul class="social_icon_footer">
                                 <li><a href="https://www.instagram.com/rany_viihh/"><i class="fa fa-instagram"
@@ -558,7 +588,7 @@
                                 </li>
                             </ul>
                         </a>
-                        <a href="#" class="cor-default-footer">
+                        <a class="cor-default-footer">
                             <ul class="social_icon_footer">
                                 <li><a href="https://github.com/ranyviih"><i class="fa fa-github"
                                             aria-hidden="true"></i>
@@ -573,7 +603,7 @@
                 <div class="perfil">
                     <img src="../images/deb-footer.jpg" alt="deb">
                     <div class="links">
-                        <a href="#" class="cor-default-footer">
+                        <a class="cor-default-footer">
                             <h4 class="cor-default-footer">Débora Peres</h4>
                             <ul class="social_icon_footer">
                                 <li><a href="https://www.instagram.com/debbieperes_/"><i class="fa fa-instagram"
@@ -582,7 +612,7 @@
                                 </li>
                             </ul>
                         </a>
-                        <a href="#" class="cor-default-footer">
+                        <a class="cor-default-footer">
                             <ul class="social_icon_footer">
                                 <li><a href="https://github.com/debdebinha"><i class="fa fa-github"
                                             aria-hidden="true"></i>
@@ -600,8 +630,8 @@
                     CONTEMPORÂNEO</a>
             </p>
         </div>
-        </div>
         <!-- end footer -->
+    </div>
 </body>
 
 </html>
