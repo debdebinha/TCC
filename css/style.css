@@ -134,10 +134,11 @@ header {
 }
 
 .logo img {
-    max-height: 55px; 
-    max-width: 90px; 
+    max-height: 55px;
+    max-width: 90px;
     margin-left: 90px !important;
 }
+
 .site-navbar .icons li a {
     font-size: 17px;
     color: white;
@@ -550,6 +551,19 @@ h6 {
     margin-bottom: 5px !important;
 }
 
+.video-youtube iframe {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+}
+
+.mapa-mental {
+    width: 100%;
+}
+
+.rio-niteroi {
+    padding-left: 85px;
+}
 /* textos-start end */
 
 /** footer **/
@@ -661,11 +675,13 @@ ul.social_icon_footer li a i {
     -ms-transition: all .5s ease;
     -o-transition: all .5s ease;
     transition: all .5s ease;
+    padding: 15px;
 }
 
 .main-photo .inner-part:hover {
     opacity: 1;
 }
+
 
 #josezinho .inner-part .inside-photo {
     position: absolute;
@@ -790,6 +806,12 @@ ul.social_icon_footer li a i {
     padding: 25px;
 }
 
+.questao-content p {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 28px;
+}
+
 .quest-body {
     align-items: center;
     justify-content: center;
@@ -838,3 +860,56 @@ ul.social_icon_footer li a i {
 }
 
 /* quizz end */
+
+/* flip fotos */
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+/* quadradinhos */
+.quadradinhos {
+    height: 340px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+
+.quadradinhos:hover{
+    background-color: #40b9d7;
+    color: #FFFFFF;
+}
+
+.quadradinhos p {
+    color: #000;
+}
+
+.quadradinhos:hover h5, .quadradinhos:hover p {
+    color: #FFF;
+}
+
+.quadradinhos h5 {
+    color: #40b9d7;
+}
